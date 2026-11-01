@@ -130,14 +130,14 @@ python3 -m unittest discover -s tests -v
 python3 scripts/sync_rules.py --offline --repo 你的用户名/你的仓库名 --branch main
 ```
 
-尚未在用户 iPhone 的 Shadowrocket 引擎及个人节点上实测。GitHub Actions 只有上传并允许运行后才会生效；本 ZIP 自身不会创建定时任务。
+已在 GitHub Actions 成功运行测试、联网同步和写回。尚未在用户 iPhone 的 Shadowrocket 引擎及个人节点上实测。
 
 ## 来源和许可
 
 - LOWERTOP/Shadowrocket：原配置架构和基础网络设置。
 - v2fly/domain-list-community：选定 AI 服务域名，MIT，许可见 `licenses/MIT-v2fly.txt`。
 - blackmatrix7/ios_rule_script：常规服务规则和镜像来源，GPL-2.0，许可见 `licenses/GPL-2.0-blackmatrix7.txt`，对应可编辑来源缓存和生成脚本一并保留。
-- OpenAI：公开的 https://openai.com/chatgpt-voice.json。
+- OpenAI：公开的 [chatgpt-voice.json](https://openai.com/chatgpt-voice.json)。
 - `sources/AI-extra-evidence.csv`：上一版个人 AI 补充的逐项来源。
 
 本仓库的整合代码按 GPL-2.0 提供，根目录 LICENSE 为许可原文；第三方内容保留各自归属。这里只存公开规则，不要向公开仓库上传任何节点订阅链接、节点密码或个人 Token。
