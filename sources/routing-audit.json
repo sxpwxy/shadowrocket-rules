@@ -55,8 +55,8 @@
       "pass": true
     },
     {
-      "actual": "Facebook",
-      "expected": "Facebook",
+      "actual": "AI",
+      "expected": "AI",
       "host": "www.facebook.com",
       "pass": true
     },
@@ -454,6 +454,6 @@
   ],
   "regular_sources_checked": 32,
   "review_date": "2026-11-01",
-  "rules_fetched_at_utc": "2026-11-01T09:40:21.470466+00:00",
+  "rules_fetched_at_utc": "2026-11-01T09:57:48.102516+00:00",
   "scope": "Static domain matcher samples only. No DNS, IP resolution, USER-AGENT, URL, real-device or Shadowrocket-engine validation."
 }
