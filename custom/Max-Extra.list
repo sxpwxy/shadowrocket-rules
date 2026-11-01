@@ -1,4 +1,2 @@
-# Existing LOWERTOP Max supplements.
-DOMAIN-SUFFIX,litix.io
+# Max-specific supplement. Shared Mux/BrightLine hosts are excluded; see docs/ROUTING-AUDIT.md.
 DOMAIN-SUFFIX,discomax.com
-DOMAIN-SUFFIX,brightline.tv

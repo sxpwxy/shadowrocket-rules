@@ -1,0 +1,59 @@
+# Selected shared dependencies for AI services
+# Enabled in AI.list by default at the user's request on 2026-11-01.
+# Exact hosts wherever possible; no strategy column.
+# Shared hosts also affect other apps that contact them.
+# Purpose/evidence/confidence: sources/AI-dependencies-evidence.csv
+# Core service roots remain in AI-extra.list and selected upstream sources.
+
+# ChatGPT
+DOMAIN,cdn.workos.com
+DOMAIN,forwarder.workos.com
+DOMAIN,frontend-apps-multi-region.workos.com
+DOMAIN,setup.workos.com
+DOMAIN,images.workoscdn.com
+DOMAIN,workos.imgix.net
+DOMAIN,challenges.cloudflare.com
+DOMAIN,js.stripe.com
+DOMAIN,api-iam.intercom.io
+DOMAIN,js.intercomcdn.com
+DOMAIN,o207216.ingest.sentry.io
+DOMAIN,o33249.ingest.sentry.io
+DOMAIN,rum.browser-intake-datadoghq.com
+DOMAIN,o33249.ingest.us.sentry.io
+DOMAIN,api.revenuecat.com
+DOMAIN,humb.apple.com
+DOMAIN,register.appattest.apple.com
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,turn.livekit.cloud
+
+# Gemini
+DOMAIN,accounts.google.com
+DOMAIN,oauth2.googleapis.com
+DOMAIN,oauthaccountmanager.googleapis.com
+DOMAIN,signaler-pa.googleapis.com
+DOMAIN,webchannel-robinfrontend-pa.googleapis.com
+
+# Muse
+DOMAIN,meta.graph.meta.com
+DOMAIN,ar.graph.meta.com
+DOMAIN,shortwave.facebook.com
+
+# Cursor / Grok
+DOMAIN,accounts.spacex.ai
+
+# GitHub Copilot
+DOMAIN,api.github.com
+DOMAIN,github.githubassets.com
+DOMAIN,avatars.githubusercontent.com
+DOMAIN,collector.github.com
+DOMAIN,copilot-telemetry.githubusercontent.com
+DOMAIN,origin-tracker.githubusercontent.com
+DOMAIN,default.exp-tas.com
+
+# Claude Code
+DOMAIN,http-intake.logs.us5.datadoghq.com
+DOMAIN,browser-intake-us5-datadoghq.com
+
+# Windsurf / Devin Desktop
+DOMAIN,apis.google.com
+

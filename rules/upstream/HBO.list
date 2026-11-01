@@ -1,13 +1,11 @@
 # HBO
 # Generated; edit custom/ or sources/ instead.
 # Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/HBO/HBO.list
-# TOTAL: 49
+# TOTAL: 47
 DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
 DOMAIN-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net
 DOMAIN-SUFFIX,cinemax.com
 DOMAIN-SUFFIX,dai3fd1oh325y.cloudfront.net
-DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com
-DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,forthethrone.com
 DOMAIN-SUFFIX,hbo.com
 DOMAIN-SUFFIX,hbo.com.c.footprint.net

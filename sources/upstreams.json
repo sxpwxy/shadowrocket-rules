@@ -25,14 +25,21 @@
     "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Disney/Disney.list",
     "policy": "Disney+",
     "format": "shadowrocket",
-    "minimum_rules": 103
+    "minimum_rules": 103,
+    "exclude_rules": [
+      "DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com"
+    ]
   },
   {
     "id": "HBO",
     "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/HBO/HBO.list",
     "policy": "Max",
     "format": "shadowrocket",
-    "minimum_rules": 29
+    "minimum_rules": 29,
+    "exclude_rules": [
+      "DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com",
+      "DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com"
+    ]
   },
   {
     "id": "Spotify",

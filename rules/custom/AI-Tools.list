@@ -1,9 +1,10 @@
 # AI-Tools
 # Generated; edit custom/ or sources/ instead.
 # Source: custom/AI-Tools.list
-# TOTAL: 5
+# TOTAL: 6
 DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,hf.space
 DOMAIN-SUFFIX,ollama.com
 DOMAIN-SUFFIX,lmstudio.ai
+DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com

@@ -58,5 +58,11 @@
     "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/jetbrains-ai",
     "format": "v2fly",
     "minimum_rules": 1
+  },
+  {
+    "id": "ai-anthropic",
+    "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/anthropic",
+    "format": "v2fly",
+    "minimum_rules": 10
   }
 ]

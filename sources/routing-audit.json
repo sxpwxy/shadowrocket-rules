@@ -1,0 +1,453 @@
+{
+  "checks": [
+    {
+      "actual": "YouTube",
+      "expected": "YouTube",
+      "host": "www.youtube.com",
+      "pass": true
+    },
+    {
+      "actual": "YouTube",
+      "expected": "YouTube",
+      "host": "r1---sn-test.googlevideo.com",
+      "pass": true
+    },
+    {
+      "actual": "Netflix",
+      "expected": "Netflix",
+      "host": "www.netflix.com",
+      "pass": true
+    },
+    {
+      "actual": "Disney+",
+      "expected": "Disney+",
+      "host": "www.disneyplus.com",
+      "pass": true
+    },
+    {
+      "actual": "Max",
+      "expected": "Max",
+      "host": "www.max.com",
+      "pass": true
+    },
+    {
+      "actual": "Spotify",
+      "expected": "Spotify",
+      "host": "open.spotify.com",
+      "pass": true
+    },
+    {
+      "actual": "Telegram",
+      "expected": "Telegram",
+      "host": "telegram.org",
+      "pass": true
+    },
+    {
+      "actual": "PayPal",
+      "expected": "PayPal",
+      "host": "www.paypal.com",
+      "pass": true
+    },
+    {
+      "actual": "Twitter",
+      "expected": "Twitter",
+      "host": "x.com",
+      "pass": true
+    },
+    {
+      "actual": "Facebook",
+      "expected": "Facebook",
+      "host": "www.facebook.com",
+      "pass": true
+    },
+    {
+      "actual": "Amazon",
+      "expected": "Amazon",
+      "host": "www.amazon.com",
+      "pass": true
+    },
+    {
+      "actual": "游戏平台",
+      "expected": "游戏平台",
+      "host": "store.steampowered.com",
+      "pass": true
+    },
+    {
+      "actual": "PROXY",
+      "expected": "PROXY",
+      "host": "github.com",
+      "pass": true
+    },
+    {
+      "actual": "微软服务",
+      "expected": "微软服务",
+      "host": "www.microsoft.com",
+      "pass": true
+    },
+    {
+      "actual": "谷歌服务",
+      "expected": "谷歌服务",
+      "host": "www.google.com",
+      "pass": true
+    },
+    {
+      "actual": "苹果服务",
+      "expected": "苹果服务",
+      "host": "www.apple.com",
+      "pass": true
+    },
+    {
+      "actual": "哔哩哔哩",
+      "expected": "哔哩哔哩",
+      "host": "www.bilibili.com",
+      "pass": true
+    },
+    {
+      "actual": "DIRECT",
+      "expected": "DIRECT",
+      "host": "www.baidu.com",
+      "pass": true
+    },
+    {
+      "actual": "DIRECT",
+      "expected": "DIRECT",
+      "host": "weixin.qq.com",
+      "pass": true
+    },
+    {
+      "actual": "DIRECT",
+      "expected": "DIRECT",
+      "host": "www.xiaohongshu.com",
+      "pass": true
+    },
+    {
+      "actual": "DIRECT",
+      "expected": "DIRECT",
+      "host": "www.douyin.com",
+      "pass": true
+    },
+    {
+      "actual": "TikTok",
+      "expected": "TikTok",
+      "host": "www.tiktok.com",
+      "pass": true
+    },
+    {
+      "actual": "AI",
+      "expected": "AI",
+      "host": "oauth2.googleapis.com",
+      "pass": true
+    },
+    {
+      "actual": "AI",
+      "expected": "AI",
+      "host": "meta.graph.meta.com",
+      "pass": true
+    },
+    {
+      "actual": "AI",
+      "expected": "AI",
+      "host": "api.revenuecat.com",
+      "pass": true
+    },
+    {
+      "actual": "AI",
+      "expected": "AI",
+      "host": "o33249.ingest.us.sentry.io",
+      "pass": true
+    },
+    {
+      "actual": "AI",
+      "expected": "AI",
+      "host": "webchannel-robinfrontend-pa.googleapis.com",
+      "pass": true
+    },
+    {
+      "actual": "AI",
+      "expected": "AI",
+      "host": "copilot.microsoft.com",
+      "pass": true
+    },
+    {
+      "actual": "AI",
+      "expected": "AI",
+      "host": "grok.x.com",
+      "pass": true
+    },
+    {
+      "actual": "AI",
+      "expected": "AI",
+      "host": "trae.ai",
+      "pass": true
+    },
+    {
+      "actual": "AI",
+      "expected": "AI",
+      "host": "api.github.com",
+      "pass": true
+    },
+    {
+      "actual": "AI",
+      "expected": "AI",
+      "host": "accounts.spacex.ai",
+      "pass": true
+    },
+    {
+      "actual": "AI",
+      "expected": "AI",
+      "host": "preview.livepreview.claude.app",
+      "pass": true
+    },
+    {
+      "actual": "AI工具下载",
+      "expected": "AI工具下载",
+      "host": "huggingface.co",
+      "pass": true
+    },
+    {
+      "actual": "AI工具下载",
+      "expected": "AI工具下载",
+      "host": "xethub.hf.co",
+      "pass": true
+    },
+    {
+      "actual": "AI工具下载",
+      "expected": "AI工具下载",
+      "host": "ollama.com",
+      "pass": true
+    },
+    {
+      "actual": "AI工具下载",
+      "expected": "AI工具下载",
+      "host": "anysphere-binaries.s3.us-east-1.amazonaws.com",
+      "pass": true
+    },
+    {
+      "actual": "Amazon",
+      "expected": "Amazon",
+      "host": "example.execute-api.us-east-1.amazonaws.com",
+      "pass": true
+    },
+    {
+      "actual": "Amazon",
+      "expected": "Amazon",
+      "host": "example.execute-api.ap-southeast-1.amazonaws.com",
+      "pass": true
+    },
+    {
+      "actual": "PROXY",
+      "expected": "PROXY",
+      "host": "example.litix.io",
+      "pass": true
+    },
+    {
+      "actual": "PROXY",
+      "expected": "PROXY",
+      "host": "example.brightline.tv",
+      "pass": true
+    }
+  ],
+  "regular_sources": [
+    {
+      "filtered_rules": [],
+      "id": "Lan",
+      "policy": "DIRECT",
+      "published_rules": 142
+    },
+    {
+      "filtered_rules": [],
+      "id": "SteamCN",
+      "policy": "DIRECT",
+      "published_rules": 17
+    },
+    {
+      "filtered_rules": [],
+      "id": "YouTube",
+      "policy": "YouTube",
+      "published_rules": 190
+    },
+    {
+      "filtered_rules": [
+        "DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com"
+      ],
+      "id": "Disney",
+      "policy": "Disney+",
+      "published_rules": 172
+    },
+    {
+      "filtered_rules": [
+        "DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com",
+        "DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com"
+      ],
+      "id": "HBO",
+      "policy": "Max",
+      "published_rules": 47
+    },
+    {
+      "filtered_rules": [],
+      "id": "Spotify",
+      "policy": "Spotify",
+      "published_rules": 30
+    },
+    {
+      "filtered_rules": [],
+      "id": "Telegram",
+      "policy": "Telegram",
+      "published_rules": 40
+    },
+    {
+      "filtered_rules": [],
+      "id": "PayPal",
+      "policy": "PayPal",
+      "published_rules": 248
+    },
+    {
+      "filtered_rules": [],
+      "id": "Twitter",
+      "policy": "Twitter",
+      "published_rules": 33
+    },
+    {
+      "filtered_rules": [],
+      "id": "Facebook",
+      "policy": "Facebook",
+      "published_rules": 570
+    },
+    {
+      "filtered_rules": [],
+      "id": "Amazon",
+      "policy": "Amazon",
+      "published_rules": 205
+    },
+    {
+      "filtered_rules": [],
+      "id": "Sony",
+      "policy": "游戏平台",
+      "published_rules": 116
+    },
+    {
+      "filtered_rules": [],
+      "id": "Nintendo",
+      "policy": "游戏平台",
+      "published_rules": 126
+    },
+    {
+      "filtered_rules": [],
+      "id": "Epic",
+      "policy": "游戏平台",
+      "published_rules": 15
+    },
+    {
+      "filtered_rules": [],
+      "id": "Steam",
+      "policy": "游戏平台",
+      "published_rules": 69
+    },
+    {
+      "filtered_rules": [],
+      "id": "Game",
+      "policy": "游戏平台",
+      "published_rules": 612
+    },
+    {
+      "filtered_rules": [],
+      "id": "GitHub",
+      "policy": "PROXY",
+      "published_rules": 31
+    },
+    {
+      "filtered_rules": [],
+      "id": "Microsoft",
+      "policy": "微软服务",
+      "published_rules": 671
+    },
+    {
+      "filtered_rules": [],
+      "id": "Google",
+      "policy": "谷歌服务",
+      "published_rules": 698
+    },
+    {
+      "filtered_rules": [],
+      "id": "Apple",
+      "policy": "苹果服务",
+      "published_rules": 1880
+    },
+    {
+      "filtered_rules": [],
+      "id": "BiliBili",
+      "policy": "哔哩哔哩",
+      "published_rules": 127
+    },
+    {
+      "filtered_rules": [],
+      "id": "NetEaseMusic",
+      "policy": "DIRECT",
+      "published_rules": 30
+    },
+    {
+      "filtered_rules": [],
+      "id": "Baidu",
+      "policy": "DIRECT",
+      "published_rules": 251
+    },
+    {
+      "filtered_rules": [],
+      "id": "DouBan",
+      "policy": "DIRECT",
+      "published_rules": 3
+    },
+    {
+      "filtered_rules": [],
+      "id": "WeChat",
+      "policy": "DIRECT",
+      "published_rules": 43
+    },
+    {
+      "filtered_rules": [],
+      "id": "Sina",
+      "policy": "DIRECT",
+      "published_rules": 108
+    },
+    {
+      "filtered_rules": [],
+      "id": "Zhihu",
+      "policy": "DIRECT",
+      "published_rules": 7
+    },
+    {
+      "filtered_rules": [],
+      "id": "XiaoHongShu",
+      "policy": "DIRECT",
+      "published_rules": 4
+    },
+    {
+      "filtered_rules": [],
+      "id": "DouYin",
+      "policy": "DIRECT",
+      "published_rules": 13
+    },
+    {
+      "filtered_rules": [],
+      "id": "TikTok",
+      "policy": "TikTok",
+      "published_rules": 35
+    },
+    {
+      "filtered_rules": [],
+      "id": "Global",
+      "policy": "PROXY",
+      "published_rules": 36014
+    },
+    {
+      "filtered_rules": [],
+      "id": "China",
+      "policy": "DIRECT",
+      "published_rules": 3753
+    }
+  ],
+  "regular_sources_checked": 32,
+  "review_date": "2026-11-01",
+  "rules_fetched_at_utc": "2026-11-01T09:15:31.213852+00:00",
+  "scope": "Static domain matcher samples only. No DNS, IP resolution, USER-AGENT, URL, real-device or Shadowrocket-engine validation."
+}

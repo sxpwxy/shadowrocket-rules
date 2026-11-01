@@ -4,7 +4,7 @@
 
 | 文件 | 常规规则来源 | AI 和个人补充 |
 | --- | --- | --- |
-| `config/Shadowrocket.conf`（推荐） | 32 个现有服务规则集直接读取原作者 | 从本仓库读取 |
+| `config/Shadowrocket.conf`（推荐） | 30 个常规规则集直取原作者；Disney/HBO 用本仓库过滤版 | 从本仓库读取 |
 | `config/Shadowrocket-mirror.conf` | 所有 37 个 RULE-SET 均读取本仓库，Actions 同步上游 | 从本仓库读取 |
 
 本仓库地址：https://github.com/sxpwxy/shadowrocket-rules
@@ -39,15 +39,23 @@ python3 scripts/sync_rules.py --repo 你的用户名/你的仓库名 --branch ma
 
 测试只使用包内缓存。生成命令会联网获取上游；需要离线构建时加 `--offline`，但离线构建不代表数据已更新。
 
+## 2026-11-01 辅助域名与其他 AI 检查
+
+已将选定的共享登录、订阅和诊断主机默认合并到 AI 规则集，包括 Google OAuth、日志里出现的 Meta Graph、RevenueCat、区域 Sentry，以及 Cursor 新登录和 GitHub Copilot 相关主机。**其他 App 访问相同共享主机也会使用 AI 出口。**
+
+完整范围、逐项来源和不能保证的部分见 [域名说明](docs/AI-DOMAINS.md)、[检查记录](docs/ROUTING-AUDIT.md) 和 [证据表](sources/AI-dependencies-evidence.csv)。辅助主机编辑 `custom/AI-Dependencies.list`；`include_shared_ai_hosts=false` 只表示未额外启用更广的候选清单，不会关闭这批已选补充。
+
 ## 更新链路
 
 原作者更新规则 → GitHub Actions 获取和校验 → 合并你的补充 → 写回本仓库 → 小火箭刷新规则集。
+
+现有 32 个常规规则来源继续同步；AI 的选定社区来源现为 11 个（增加 Anthropic）。
 
 主文件里一条 RULE-SET 引用可以展开成很多实际匹配项。39 条表示入口简洁，不是运行时只剩下 39 条匹配条件；把规则装进列表也不自动提升速度。
 
 - 默认 Actions 每天 UTC+8 **06:23** 尝试同步一次，也支持手动 Run workflow。
 - GitHub 的定时运行可能延迟；公开仓库长期不活跃时，定时任务可能被停用，需在 Actions 检查。
-- 混合模式：YouTube 等 32 个常规来源在小火箭刷新时直取上游，AI 和个人文件仍等本仓库 Actions 同步。
+- 混合模式：YouTube 等 30 个常规来源在小火箭刷新时直取上游，Disney/HBO 先经本仓库过滤共享 AWS 后缀，AI 和个人文件仍等本仓库 Actions 同步。
 - 镜像模式：手机只读你的仓库，所有来源的新内容都要先经过 Actions，可能多一段同步延迟。
 - 单纯复制文件或 Fork 一次，不会自动跟随未来的上游更新。
 - 刷新规则集只能拿到 URL 当前内容；“重新下载”不是“自动发现新 AI 服务”。脚本会同步已列出的社区服务文件和官方语音数据。未来新品牌、新独立域名若没有进入选定上游或个人补充，仍需加入。
@@ -84,6 +92,7 @@ python3 scripts/sync_rules.py --repo 你的用户名/你的仓库名 --branch ma
 | 文件 | 怎么用 | 自动同步会不会覆盖 |
 | --- | --- | --- |
 | `custom/AI-extra.list` | 自己补充的 AI 域名，不带策略列 | 不覆盖 |
+| `custom/AI-Dependencies.list` | 已启用的选定共享登录、订阅、诊断主机 | 不覆盖 |
 | `custom/AI-exclude.list` | 从合并结果删除完全相同的规则行 | 不覆盖 |
 | `custom/AI-shared-optional.list` | 公共登录、挑战、支付等，可选启用 | 不覆盖 |
 | `custom/Netflix-Core.list` | Netflix 精简域名，避免共享 AWS 后缀误分组 | 不覆盖 |
@@ -106,11 +115,11 @@ DOMAIN,my-confirmed-api.example.com
 ## 保持了什么、改变了什么
 
 - General、Host、URL Rewrite、MITM 沿用上一版，不修改设备系统网络设置。
-- 上一版的 154 条 AI 域名、402 条语音 IP 逻辑规则及其他内嵌路由，按用途拆进规则集；选定上游可以继续增加匹配项。
+- 上一版的 AI 域名、402 条语音 IP 逻辑规则及其他内嵌路由按用途拆进规则集；本次移除两条非 Max 专属的共享统计/广告后缀，其他既有内嵌匹配保留。选定上游可以继续增加匹配项。
 - 官方语音地址仅匹配 UDP 3478。语音的新 IP 会从 OpenAI JSON 同步；协议、端口或 JSON 格式改变时脚本需要维护。
 - AI 仍优先于宽泛的 Google / Microsoft / Facebook / X / TikTok 列表。
 - 常规列表镜像会把 Quantumult X 的 HOST 等语法转换成 Shadowrocket 的 DOMAIN 等语法，移除源文件自带的策略标签，由主配置指定策略。
-- 过宽的共享 AI 后缀会被过滤，列表在代码的 BLOCK_AI 中。共享登录域名默认不强制进入 AI。
+- 过宽的共享 AI 后缀会被过滤，列表在代码的 BLOCK_AI 中。选定共享依赖现默认进入 AI；更广候选仍需手动启用。
 - Netflix 保留精简策略，因此特殊设备、IP-only 连接等仍可能需按日志补充。
 - 主文件数量减少不等于匹配总量减少，也不代表完整实机兼容性已验证。
 

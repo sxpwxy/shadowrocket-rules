@@ -4,3 +4,7 @@ DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,hf.space
 DOMAIN-SUFFIX,ollama.com
 DOMAIN-SUFFIX,lmstudio.ai
+
+# Cursor official updater binary bucket; do not match all of amazonaws.com.
+# Source: https://prod.cursor.com/docs/enterprise/network-configuration
+DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com

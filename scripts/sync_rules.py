@@ -31,7 +31,9 @@ SIMPLE_TYPES = {"DOMAIN", "DOMAIN-SUFFIX", "DOMAIN-KEYWORD", "DOMAIN-WILDCARD",
 BLOCK_AI = {"googleapis.com", "google.com", "gstatic.com", "googleusercontent.com",
             "facebook.com", "fbcdn.net", "instagram.com", "x.com", "github.com",
             "amazonaws.com", "cloudfront.net", "azure.com", "blob.core.windows.net",
-            "storage.googleapis.com", "livekit.cloud", "auth0.com"}
+            "storage.googleapis.com", "livekit.cloud", "auth0.com", "meta.com",
+            "sentry.io", "revenuecat.com", "workos.com", "stripe.com", "intercom.io",
+            "intercomcdn.com", "datadoghq.com", "cloudflare.com", "apple.com", "icloud.com"}
 
 
 def active(text):
@@ -181,7 +183,7 @@ def compact_rules(reference, source_map, base, mirror):
         if row.startswith("RULE-SET,"):
             _, url, policy = row.split(",", 2)
             item = source_map[url]
-            dest = base + "rules/upstream/" + item["id"] + ".list" if mirror else url
+            dest = base + "rules/upstream/" + item["id"] + ".list" if mirror or item.get("exclude_rules") else url
             compact.append(f"RULE-SET,{dest},{policy}")
         elif row.startswith(("GEOIP,", "FINAL,")):
             compact.append(row)
@@ -243,8 +245,15 @@ def build_outputs(root, repository, branch, texts, offline):
     for item in providers:
         text = texts[item["id"]]
         rows = normalize(text, item["format"], item["minimum_rules"])
+        excluded = item.get("exclude_rules", [])
+        if any(row not in rows for row in excluded):
+            raise ValueError(f"Review stale upstream exclusions for {item['id']}")
+        rows = apply_exclusions(rows, excluded)
+        if not rows:
+            raise ValueError(f"No published rules left for {item['id']}")
         outputs[f"rules/upstream/{item['id']}.list"] = rule_file(item["id"], rows, [item["url"]])
-        source_report[item["id"]] = {"url": item["url"], "rules": len(rows), "sha256": sha(text)}
+        source_report[item["id"]] = {"url": item["url"], "rules": len(rows), "sha256": sha(text),
+                                     "excluded_rules": excluded}
     merged = []
     for item in ai_sources:
         text = texts[item["id"]]
@@ -252,14 +261,18 @@ def build_outputs(root, repository, branch, texts, offline):
         merged.extend(rows)
         source_report[item["id"]] = {"url": item["url"], "rules": len(rows), "sha256": sha(text)}
     extras = normalize((root / "custom/AI-extra.list").read_text(), "shadowrocket")
+    dependencies = normalize((root / "custom/AI-Dependencies.list").read_text(), "shadowrocket")
+    extras.extend(dependencies)
+    ai_provenance = [x["url"] for x in ai_sources] + ["custom/AI-extra.list", "custom/AI-Dependencies.list"]
     exclusions = active((root / "custom/AI-exclude.list").read_text())
     settings = read_json(root / "settings.json")
     if settings.get("include_shared_ai_hosts"):
         extras.extend(normalize((root / "custom/AI-shared-optional.list").read_text(), "shadowrocket"))
+        ai_provenance.append("custom/AI-shared-optional.list")
     ai, dropped = merge_ai(merged, extras, exclusions)
     if len(ai) < 100:
         raise ValueError("Unexpectedly small merged AI list")
-    outputs["rules/ai/AI.list"] = rule_file("AI core", ai, [x["url"] for x in ai_sources] + ["custom/AI-extra.list"])
+    outputs["rules/ai/AI.list"] = rule_file("AI services and selected dependencies", ai, ai_provenance)
     voice, voice_time = voice_rows(texts["openai-voice"])
     outputs["rules/ai/AI-Voice.list"] = rule_file("ChatGPT voice UDP/3478; official creationTime=" + str(voice_time), voice, [VOICE_URL])
     source_report["openai-voice"] = {"url": VOICE_URL, "rules": len(voice), "sha256": sha(texts["openai-voice"]), "official_creation_time": voice_time}
@@ -286,7 +299,8 @@ def build_outputs(root, repository, branch, texts, offline):
         validate_config(text)
         outputs["config/Shadowrocket-mirror.conf" if mirror else "config/Shadowrocket.conf"] = text
     report = {"repository": repository, "branch": branch, "offline_build": offline,
-              "ai_domain_rules": len(ai), "voice_ip_rules": len(voice), "main_rules_per_config": 39,
+              "ai_domain_rules": len(ai), "selected_dependency_rules": len(dependencies),
+              "voice_ip_rules": len(voice), "main_rules_per_config": 39,
               "blocked_broad_ai_rules": dropped, "sources": source_report,
               "validation_scope": "Static format and references; no live Shadowrocket engine or user node test."}
     if not offline:
