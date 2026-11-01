@@ -17,7 +17,7 @@
 
 ## 本次默认启用的辅助域名
 
-共 39 条规则。包括 WorkOS 登录资源、Cloudflare 挑战、Stripe 支付脚本、RevenueCat 订阅、特定 Sentry/Datadog 接收主机、LiveKit 中继、Google 账户及令牌接口，以及手机日志中的三个 Meta Graph 主机。它们与已有核心规则合并到同一个 AI.list，主配置仍为 39 条规则。
+共 40 条规则。包括 WorkOS 登录资源、Cloudflare 挑战、Stripe 支付脚本、RevenueCat 订阅、特定 Sentry/Datadog 接收主机、LiveKit 中继、Google 账户及令牌接口，以及手机日志中的三个 Meta Graph 主机。它们与已有核心规则合并到同一个 AI.list，主配置仍为 39 条规则。
 
 - 官方“允许列表”说明网络应允许访问，不代表每个客户端每次一定访问，也不是官方的代理分流建议。
 - Google 的 accounts.google.com、oauth2.googleapis.com，以及 RevenueCat、WorkOS、Stripe、Cloudflare、LiveKit 等主机会被其他服务共用。其他 App 访问相同主机也会走 AI。
@@ -59,4 +59,6 @@
 - 另补 DeepWiki、Kimi 国际域名、MiniMax 国际域名、Qoder、Cline、OpenCode、Context7、Dify 等社区已收录根域名；不据此认定其国内版本必须走海外节点。
 - 存储桶、包管理器、通用字体及 JavaScript CDN 可能被多个应用使用。未将整个 storage.googleapis.com、npm、GitHub、Cloudflare 或全部 CDN 强制纳入 AI。
 
-2026-11-01 后续日志补充：graph.facebook.com 与 meta.graph.meta.com 是不同的完整主机。前者现以 DOMAIN 精确加入；www.facebook.com 和整个 facebook.com 后缀仍保持原分组。其他 App 对 graph.facebook.com 的访问也会走 AI，不能仅凭日志推断具体请求内容或唯一发起 App。
+2026-11-01 后续日志补充：graph.facebook.com 与 meta.graph.meta.com 是不同的完整主机。前者现以 DOMAIN 精确加入；www.facebook.com 现按用户明确要求精确加入 AI；整个 facebook.com 后缀及其他未单列子域仍保持原分组。其他 App 对 graph.facebook.com 的访问也会走 AI，不能仅凭日志推断具体请求内容或唯一发起 App。
+
+2026-11-01 用户追加要求：将 www.facebook.com 以 DOMAIN 精确路由到 AI，不把整个 facebook.com、fbcdn.net 或 cdninstagram.com 加入 AI。其他 App 或浏览器访问该完整主机也会使用 AI 出口；该主机流量不保证只包含登录或少量数据。

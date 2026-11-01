@@ -38,6 +38,8 @@ DOMAIN,meta.graph.meta.com
 DOMAIN,ar.graph.meta.com
 # Shared Graph host observed beside the Muse VM connection; not Muse-exclusive.
 DOMAIN,graph.facebook.com
+# Explicitly requested shared Facebook web/login host; other apps may use it.
+DOMAIN,www.facebook.com
 DOMAIN,shortwave.facebook.com
 
 # Cursor / Grok

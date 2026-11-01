@@ -85,3 +85,5 @@
 - https://github.com/v2fly/domain-list-community/blob/master/data/category-ai-!cn
 - https://www.mux.com/docs/core/content-security-policy
 - https://brightline.tv/our-team
+
+后续明确请求：www.facebook.com 的代表域名期望改为 AI；m.facebook.com、video.facebook.com 等未单列子域不因此进入 AI。自动测试验证完整主机匹配范围，主配置仍为 39 条。

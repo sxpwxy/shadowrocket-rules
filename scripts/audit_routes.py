@@ -11,7 +11,7 @@ CHECKS = {
     "www.netflix.com": "Netflix", "www.disneyplus.com": "Disney+",
     "www.max.com": "Max", "open.spotify.com": "Spotify",
     "telegram.org": "Telegram", "www.paypal.com": "PayPal", "x.com": "Twitter",
-    "www.facebook.com": "Facebook", "www.amazon.com": "Amazon",
+    "www.facebook.com": "AI", "www.amazon.com": "Amazon",
     "store.steampowered.com": "游戏平台", "github.com": "PROXY",
     "www.microsoft.com": "微软服务", "www.google.com": "谷歌服务",
     "www.apple.com": "苹果服务", "www.bilibili.com": "哔哩哔哩",

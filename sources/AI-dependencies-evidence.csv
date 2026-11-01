@@ -39,3 +39,4 @@
 "Windsurf / Devin Desktop","apis.google.com","Google 认证辅助入口","Windsurf/Devin 官方允许列表；其他 Google 服务也使用","https://docs.devin.ai/desktop/troubleshooting/windsurf-common-issues","DOMAIN","2026-11-01"
 
 "Muse","graph.facebook.com","Meta Graph 共享接口；具体用途未确认","新手机日志中与 hatch.metaaivm.com 同时出现；不证明请求仅来自 Muse；其他 App 访问同域也走 AI","user-observed-public-hostname","DOMAIN","2026-11-01"
+"Muse / shared Meta web","www.facebook.com","共享网页与登录入口；具体请求用途未确认","用户明确要求精确加入；其他 App/浏览器访问相同主机也走 AI；不扩展至整个 facebook.com 或媒体 CDN","user-requested-exact-host","DOMAIN","2026-11-01"

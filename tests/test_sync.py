@@ -126,7 +126,7 @@ class RuleBuildTests(unittest.TestCase):
         for host in ["oauth2.googleapis.com", "oauthaccountmanager.googleapis.com",
                      "signaler-pa.googleapis.com", "accounts.google.com",
                      "webchannel-robinfrontend-pa.googleapis.com",
-                     "meta.graph.meta.com", "ar.graph.meta.com", "graph.facebook.com", "shortwave.facebook.com",
+                     "meta.graph.meta.com", "ar.graph.meta.com", "graph.facebook.com", "shortwave.facebook.com", "www.facebook.com",
                      "api.revenuecat.com", "o33249.ingest.us.sentry.io",
                      "accounts.spacex.ai", "auth.grokusercontent.com",
                      "api.github.com", "bridge.claudeusercontent.com",
@@ -135,7 +135,7 @@ class RuleBuildTests(unittest.TestCase):
                 self.assertTrue(covered(host))
         for host in ["other.googleapis.com", "other.graph.meta.com",
                      "other.ingest.us.sentry.io", "other.revenuecat.com",
-                     "www.facebook.com", "www.apple.com", "github.com",
+                     "m.facebook.com", "video.facebook.com", "www.apple.com", "github.com",
                      "unrelated.amazonaws.com"]:
             with self.subTest(unrelated_host=host):
                 self.assertFalse(covered(host))
