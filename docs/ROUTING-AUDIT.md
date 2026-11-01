@@ -5,7 +5,7 @@
 - 联网获取并解析 32 个常规规则源、11 个选定 AI 社区源与官方语音地址，共 44 个来源。
 - 校验下载内容非 HTML、声明 TOTAL 与正文一致、最小条数、语法、策略引用及生成地址；失败时不替换已发布数据。
 - 两个主配置都保持 39 条规则，AI 域名优先于 Google/Facebook/Microsoft/Apple 等宽泛公司规则。
-- 15 项自动测试通过，另外 41 个代表域名的静态分流样例通过。样例实际结果见 [routing-audit.json](../sources/routing-audit.json)，复查命令是 python3 scripts/audit_routes.py。
+- 15 项自动测试通过，另外 42 个代表域名的静态分流样例通过。样例实际结果见 [routing-audit.json](../sources/routing-audit.json)，复查命令是 python3 scripts/audit_routes.py。
 - General、Hosts、URL Rewrite、MITM 沿用已有配置；策略组和订阅筛选不在此次调整范围。
 
 ## AI 检查及补充

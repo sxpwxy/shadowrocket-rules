@@ -18,7 +18,7 @@ CHECKS = {
     "www.baidu.com": "DIRECT", "weixin.qq.com": "DIRECT",
     "www.xiaohongshu.com": "DIRECT", "www.douyin.com": "DIRECT",
     "www.tiktok.com": "TikTok", "oauth2.googleapis.com": "AI",
-    "meta.graph.meta.com": "AI", "api.revenuecat.com": "AI",
+    "meta.graph.meta.com": "AI", "graph.facebook.com": "AI", "api.revenuecat.com": "AI",
     "o33249.ingest.us.sentry.io": "AI",
     "webchannel-robinfrontend-pa.googleapis.com": "AI",
     "copilot.microsoft.com": "AI", "grok.x.com": "AI", "trae.ai": "AI",

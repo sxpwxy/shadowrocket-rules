@@ -38,3 +38,4 @@
 "Claude Code","browser-intake-us5-datadoghq.com","可选错误上报","Claude Code 官方文档；其他产品可能共用","https://code.claude.com/docs/en/network-config","DOMAIN","2026-11-01"
 "Windsurf / Devin Desktop","apis.google.com","Google 认证辅助入口","Windsurf/Devin 官方允许列表；其他 Google 服务也使用","https://docs.devin.ai/desktop/troubleshooting/windsurf-common-issues","DOMAIN","2026-11-01"
 
+"Muse","graph.facebook.com","Meta Graph 共享接口；具体用途未确认","新手机日志中与 hatch.metaaivm.com 同时出现；不证明请求仅来自 Muse；其他 App 访问同域也走 AI","user-observed-public-hostname","DOMAIN","2026-11-01"

@@ -17,11 +17,11 @@
 
 ## 本次默认启用的辅助域名
 
-共 38 条规则。包括 WorkOS 登录资源、Cloudflare 挑战、Stripe 支付脚本、RevenueCat 订阅、特定 Sentry/Datadog 接收主机、LiveKit 中继、Google 账户及令牌接口，以及手机日志中的两个 Meta Graph 主机。它们与已有核心规则合并到同一个 AI.list，主配置仍为 39 条规则。
+共 39 条规则。包括 WorkOS 登录资源、Cloudflare 挑战、Stripe 支付脚本、RevenueCat 订阅、特定 Sentry/Datadog 接收主机、LiveKit 中继、Google 账户及令牌接口，以及手机日志中的三个 Meta Graph 主机。它们与已有核心规则合并到同一个 AI.list，主配置仍为 39 条规则。
 
 - 官方“允许列表”说明网络应允许访问，不代表每个客户端每次一定访问，也不是官方的代理分流建议。
 - Google 的 accounts.google.com、oauth2.googleapis.com，以及 RevenueCat、WorkOS、Stripe、Cloudflare、LiveKit 等主机会被其他服务共用。其他 App 访问相同主机也会走 AI。
-- meta.graph.meta.com、ar.graph.meta.com、signaler-pa.googleapis.com 的手机日志只能证明目的主机和匹配策略，不能证明特定 URL 的功能或唯一发起 App。
+- meta.graph.meta.com、ar.graph.meta.com、graph.facebook.com、signaler-pa.googleapis.com 的手机日志只能证明目的主机和匹配策略，不能证明特定 URL 的功能或唯一发起 App。
 - webchannel-robinfrontend-pa.googleapis.com 与 robinfrontend-pa.googleapis.com 是并列主机。后缀规则不匹配名字前多了连字符的并列主机；这里单独补入。
 - shortwave.facebook.com 来自一手 Muse 桌面客户端研究，仅提取公开目的主机，不下载或运行研究代码。iOS 是否使用需以本机记录为准。
 - Muse 的官方资料说明部分工作发生在云端专用虚拟机。手机分流只影响手机发起的连接，不能控制云端 Muse 自己浏览网站时的出口。
@@ -58,3 +58,5 @@
 - Windsurf/Devin 的产品后缀已覆盖，新增精确 apis.google.com 认证主机；不照搬官方防火墙建议中的整个 googleapis.com 后缀。
 - 另补 DeepWiki、Kimi 国际域名、MiniMax 国际域名、Qoder、Cline、OpenCode、Context7、Dify 等社区已收录根域名；不据此认定其国内版本必须走海外节点。
 - 存储桶、包管理器、通用字体及 JavaScript CDN 可能被多个应用使用。未将整个 storage.googleapis.com、npm、GitHub、Cloudflare 或全部 CDN 强制纳入 AI。
+
+2026-11-01 后续日志补充：graph.facebook.com 与 meta.graph.meta.com 是不同的完整主机。前者现以 DOMAIN 精确加入；www.facebook.com 和整个 facebook.com 后缀仍保持原分组。其他 App 对 graph.facebook.com 的访问也会走 AI，不能仅凭日志推断具体请求内容或唯一发起 App。
