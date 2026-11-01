@@ -1,0 +1,8 @@
+# XiaoHongShu
+# Generated; edit custom/ or sources/ instead.
+# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/XiaoHongShu/XiaoHongShu.list
+# TOTAL: 4
+DOMAIN-SUFFIX,fengkongcloud.com
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xhscdn.net
+DOMAIN-SUFFIX,xiaohongshu.com

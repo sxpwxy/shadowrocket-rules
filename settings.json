@@ -1,0 +1,5 @@
+{
+  "ai_subscription": null,
+  "include_shared_ai_hosts": false,
+  "note": "Set ai_subscription to the exact subscription label in Shadowrocket, or keep null and choose the intended premium node manually."
+}

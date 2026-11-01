@@ -1,0 +1,226 @@
+[
+  {
+    "id": "Lan",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Lan/Lan.list",
+    "policy": "DIRECT",
+    "format": "shadowrocket",
+    "minimum_rules": 85
+  },
+  {
+    "id": "SteamCN",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/SteamCN/SteamCN.list",
+    "policy": "DIRECT",
+    "format": "shadowrocket",
+    "minimum_rules": 10
+  },
+  {
+    "id": "YouTube",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/YouTube/YouTube.list",
+    "policy": "YouTube",
+    "format": "shadowrocket",
+    "minimum_rules": 114
+  },
+  {
+    "id": "Disney",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Disney/Disney.list",
+    "policy": "Disney+",
+    "format": "shadowrocket",
+    "minimum_rules": 103
+  },
+  {
+    "id": "HBO",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/HBO/HBO.list",
+    "policy": "Max",
+    "format": "shadowrocket",
+    "minimum_rules": 29
+  },
+  {
+    "id": "Spotify",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Spotify/Spotify.list",
+    "policy": "Spotify",
+    "format": "shadowrocket",
+    "minimum_rules": 18
+  },
+  {
+    "id": "Telegram",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Telegram/Telegram.list",
+    "policy": "Telegram",
+    "format": "shadowrocket",
+    "minimum_rules": 24
+  },
+  {
+    "id": "PayPal",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/PayPal/PayPal.list",
+    "policy": "PayPal",
+    "format": "shadowrocket",
+    "minimum_rules": 148
+  },
+  {
+    "id": "Twitter",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Twitter/Twitter.list",
+    "policy": "Twitter",
+    "format": "shadowrocket",
+    "minimum_rules": 19
+  },
+  {
+    "id": "Facebook",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Facebook/Facebook.list",
+    "policy": "Facebook",
+    "format": "shadowrocket",
+    "minimum_rules": 342
+  },
+  {
+    "id": "Amazon",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Amazon/Amazon.list",
+    "policy": "Amazon",
+    "format": "shadowrocket",
+    "minimum_rules": 123
+  },
+  {
+    "id": "Sony",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Sony/Sony.list",
+    "policy": "游戏平台",
+    "format": "shadowrocket",
+    "minimum_rules": 69
+  },
+  {
+    "id": "Nintendo",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Nintendo/Nintendo.list",
+    "policy": "游戏平台",
+    "format": "shadowrocket",
+    "minimum_rules": 75
+  },
+  {
+    "id": "Epic",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Epic/Epic.list",
+    "policy": "游戏平台",
+    "format": "shadowrocket",
+    "minimum_rules": 9
+  },
+  {
+    "id": "Steam",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Steam/Steam.list",
+    "policy": "游戏平台",
+    "format": "shadowrocket",
+    "minimum_rules": 41
+  },
+  {
+    "id": "Game",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Game/Game.list",
+    "policy": "游戏平台",
+    "format": "shadowrocket",
+    "minimum_rules": 367
+  },
+  {
+    "id": "GitHub",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/GitHub/GitHub.list",
+    "policy": "PROXY",
+    "format": "shadowrocket",
+    "minimum_rules": 18
+  },
+  {
+    "id": "Microsoft",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Microsoft/Microsoft.list",
+    "policy": "微软服务",
+    "format": "shadowrocket",
+    "minimum_rules": 402
+  },
+  {
+    "id": "Google",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Google/Google.list",
+    "policy": "谷歌服务",
+    "format": "shadowrocket",
+    "minimum_rules": 418
+  },
+  {
+    "id": "Apple",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list",
+    "policy": "苹果服务",
+    "format": "quantumultx",
+    "minimum_rules": 1128
+  },
+  {
+    "id": "BiliBili",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BiliBili/BiliBili.list",
+    "policy": "哔哩哔哩",
+    "format": "shadowrocket",
+    "minimum_rules": 76
+  },
+  {
+    "id": "NetEaseMusic",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/NetEaseMusic/NetEaseMusic.list",
+    "policy": "DIRECT",
+    "format": "shadowrocket",
+    "minimum_rules": 18
+  },
+  {
+    "id": "Baidu",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Baidu/Baidu.list",
+    "policy": "DIRECT",
+    "format": "shadowrocket",
+    "minimum_rules": 150
+  },
+  {
+    "id": "DouBan",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/DouBan/DouBan.list",
+    "policy": "DIRECT",
+    "format": "shadowrocket",
+    "minimum_rules": 1
+  },
+  {
+    "id": "WeChat",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/WeChat/WeChat.list",
+    "policy": "DIRECT",
+    "format": "quantumultx",
+    "minimum_rules": 25
+  },
+  {
+    "id": "Sina",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Sina/Sina.list",
+    "policy": "DIRECT",
+    "format": "shadowrocket",
+    "minimum_rules": 64
+  },
+  {
+    "id": "Zhihu",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Zhihu/Zhihu.list",
+    "policy": "DIRECT",
+    "format": "shadowrocket",
+    "minimum_rules": 4
+  },
+  {
+    "id": "XiaoHongShu",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/XiaoHongShu/XiaoHongShu.list",
+    "policy": "DIRECT",
+    "format": "shadowrocket",
+    "minimum_rules": 2
+  },
+  {
+    "id": "DouYin",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/DouYin/DouYin.list",
+    "policy": "DIRECT",
+    "format": "shadowrocket",
+    "minimum_rules": 7
+  },
+  {
+    "id": "TikTok",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/TikTok/TikTok.list",
+    "policy": "TikTok",
+    "format": "shadowrocket",
+    "minimum_rules": 21
+  },
+  {
+    "id": "Global",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Global/Global.list",
+    "policy": "PROXY",
+    "format": "quantumultx",
+    "minimum_rules": 21608
+  },
+  {
+    "id": "China",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/China/China.list",
+    "policy": "DIRECT",
+    "format": "quantumultx",
+    "minimum_rules": 2251
+  }
+]

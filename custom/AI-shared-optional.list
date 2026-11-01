@@ -1,0 +1,30 @@
+# OPTIONAL ONLY. Shared login, telemetry, payments and media hosts.
+# Enabling this list changes routing for non-AI sites using the same hosts.
+# Source: official OpenAI/GitHub allowlists and shared-service public entry points.
+# Meta accounts/auth/API hosts are diagnostic candidates, not a verified Muse network allowlist.
+DOMAIN,challenges.cloudflare.com
+DOMAIN,accounts.google.com
+DOMAIN,accounts.youtube.com
+DOMAIN,accounts.meta.com
+DOMAIN,auth.meta.com
+DOMAIN,graph.facebook.com
+DOMAIN,www.facebook.com
+DOMAIN,static.xx.fbcdn.net
+DOMAIN,github.com
+DOMAIN,api.github.com
+DOMAIN,github.githubassets.com
+DOMAIN,avatars.githubusercontent.com
+DOMAIN,cdn.workos.com
+DOMAIN,forwarder.workos.com
+DOMAIN,frontend-apps-multi-region.workos.com
+DOMAIN,setup.workos.com
+DOMAIN,images.workoscdn.com
+DOMAIN,workos.imgix.net
+DOMAIN,js.stripe.com
+DOMAIN,api.statsig.com
+DOMAIN,api-iam.intercom.io
+DOMAIN,o33249.ingest.sentry.io
+DOMAIN,o207216.ingest.sentry.io
+DOMAIN,rum.browser-intake-datadoghq.com
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,turn.livekit.cloud

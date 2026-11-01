@@ -1,0 +1,3 @@
+After successful upload + workflow, choose ONE config:
+https://raw.githubusercontent.com/sxpwxy/shadowrocket-rules/main/config/Shadowrocket.conf
+https://raw.githubusercontent.com/sxpwxy/shadowrocket-rules/main/config/Shadowrocket-mirror.conf

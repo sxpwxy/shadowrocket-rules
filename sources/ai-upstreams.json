@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ai-google-deepmind",
+    "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind",
+    "format": "v2fly",
+    "minimum_rules": 1
+  },
+  {
+    "id": "ai-github-copilot",
+    "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/github-copilot",
+    "format": "v2fly",
+    "minimum_rules": 1
+  },
+  {
+    "id": "ai-manus",
+    "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/manus",
+    "format": "v2fly",
+    "minimum_rules": 1
+  },
+  {
+    "id": "ai-windsurf",
+    "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/windsurf",
+    "format": "v2fly",
+    "minimum_rules": 1
+  },
+  {
+    "id": "ai-poe",
+    "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/poe",
+    "format": "v2fly",
+    "minimum_rules": 1
+  },
+  {
+    "id": "ai-perplexity",
+    "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/perplexity",
+    "format": "v2fly",
+    "minimum_rules": 1
+  },
+  {
+    "id": "ai-xai",
+    "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/xai",
+    "format": "v2fly",
+    "minimum_rules": 1
+  },
+  {
+    "id": "ai-cursor",
+    "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cursor",
+    "format": "v2fly",
+    "minimum_rules": 1
+  },
+  {
+    "id": "ai-elevenlabs",
+    "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/elevenlabs",
+    "format": "v2fly",
+    "minimum_rules": 1
+  },
+  {
+    "id": "ai-jetbrains-ai",
+    "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/jetbrains-ai",
+    "format": "v2fly",
+    "minimum_rules": 1
+  }
+]

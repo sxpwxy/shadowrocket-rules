@@ -1,0 +1,2 @@
+# Exact normalized rule entries to remove from merged AI list.
+# One DOMAIN or DOMAIN-SUFFIX per line; removing a child does not override an upstream parent suffix.

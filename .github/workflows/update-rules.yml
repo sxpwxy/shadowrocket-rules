@@ -1,0 +1,48 @@
+name: Update routing rules
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 06:23 UTC+8 daily; off the busy top of the hour. GitHub can delay schedules.
+    - cron: '23 22 * * *'
+  push:
+    paths:
+      - 'custom/**'
+      - 'templates/**'
+      - 'sources/upstreams.json'
+      - 'sources/ai-upstreams.json'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'settings.json'
+      - '.github/workflows/update-rules.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: routing-rules-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run format and behavior tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Fetch, validate and generate
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_REF_NAME: ${{ github.ref_name }}
+        run: python3 scripts/sync_rules.py
+      - name: Commit verified generated rules
+        run: |
+          git add config rules sources/cache sources/cache-metadata.json sources/last_sync.json IMPORT_URLS.txt
+          if git diff --cached --quiet
+          then
+            echo "No rule changes"
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Refresh routing rules'
+          git push

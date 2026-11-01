@@ -1,0 +1,6 @@
+# Model downloads and same-domain hosted inference; ordinary proxy by default.
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+DOMAIN-SUFFIX,hf.space
+DOMAIN-SUFFIX,ollama.com
+DOMAIN-SUFFIX,lmstudio.ai

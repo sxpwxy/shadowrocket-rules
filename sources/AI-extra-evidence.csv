@@ -1,0 +1,155 @@
+﻿service,rule_type,domain,policy,evidence_level,source
+OpenAI / ChatGPT / Codex / Sora,DOMAIN-SUFFIX,openai.com,AI,official-and-upstream,https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+OpenAI / ChatGPT / Codex / Sora,DOMAIN-SUFFIX,chatgpt.com,AI,official-and-upstream,https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+OpenAI / ChatGPT / Codex / Sora,DOMAIN-SUFFIX,chat.com,AI,official-and-upstream,https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+OpenAI / ChatGPT / Codex / Sora,DOMAIN-SUFFIX,sora.com,AI,official-and-upstream,https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+OpenAI / ChatGPT / Codex / Sora,DOMAIN-SUFFIX,oaistatic.com,AI,official-and-upstream,https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+OpenAI / ChatGPT / Codex / Sora,DOMAIN-SUFFIX,oaiusercontent.com,AI,official-and-upstream,https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+OpenAI / ChatGPT / Codex / Sora,DOMAIN-SUFFIX,oaistatsig.com,AI,official-and-upstream,https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+OpenAI specific storage/CDN,DOMAIN,cdn.openaimerge.com,AI,official-and-community,https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps ; https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.list
+OpenAI specific storage/CDN,DOMAIN,openaiassets.blob.core.windows.net,AI,official-and-community,https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps ; https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.list
+OpenAI specific storage/CDN,DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,AI,official-and-community,https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps ; https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.list
+OpenAI specific storage/CDN,DOMAIN,openaicomproductionae4b.blob.core.windows.net,AI,official-and-community,https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps ; https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.list
+OpenAI specific storage/CDN,DOMAIN,production-openaicom-storage.azureedge.net,AI,official-and-community,https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps ; https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.list
+OpenAI specific storage/CDN,DOMAIN,openaiapi-site.azureedge.net,AI,official-and-community,https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps ; https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.list
+OpenAI specific storage/CDN,DOMAIN,openaicom.imgix.net,AI,official-and-community,https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps ; https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.list
+OpenAI legacy voice hostnames,DOMAIN-SUFFIX,chatgpt.livekit.cloud,AI,community-maintainer,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.list
+Anthropic / Claude / Claude Code,DOMAIN-SUFFIX,anthropic.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/anthropic ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+Anthropic / Claude / Claude Code,DOMAIN-SUFFIX,claude.ai,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/anthropic ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+Anthropic / Claude / Claude Code,DOMAIN-SUFFIX,claude.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/anthropic ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+Anthropic / Claude / Claude Code,DOMAIN-SUFFIX,clau.de,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/anthropic ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+Anthropic / Claude / Claude Code,DOMAIN-SUFFIX,claudemcpclient.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/anthropic ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+Anthropic / Claude / Claude Code,DOMAIN-SUFFIX,claudemcpcontent.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/anthropic ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+Anthropic / Claude / Claude Code,DOMAIN-SUFFIX,claudeusercontent.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/anthropic ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+Anthropic / Claude / Claude Code,DOMAIN,anthropic.auth0.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/anthropic ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+Anthropic / Claude / Claude Code,DOMAIN,anthropic.com.cdn.cloudflare.net,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/anthropic ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+Claude marketing CDN,DOMAIN,servd-anthropic-website.b-cdn.net,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/anthropic
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,deepmind.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,deepmind.google,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,geller-pa.googleapis.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,generativelanguage.googleapis.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN,ai.google.dev,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN,alkalicore-pa.clients6.google.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN,alkalimakersuite-pa.clients6.google.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,generativeai.google,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,makersuite.google.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,ai.studio,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,aistudio.google.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,bard.google.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,gemini.google,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,gemini.google.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,gemini.gstatic.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN,geminiweb-pa.clients.google.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN,geminiweb-pa.clients6.google.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN,appsgenaiserver-pa.clients.google.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN,appsgenaiserver-pa.clients6.google.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN,appsgenaiserver-pa.googleapis.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN,cloudaicompanion.googleapis.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN,cloudcode-pa.googleapis.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN,daily-cloudcode-pa.googleapis.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN,notebooklm-pa.googleapis.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN,notebooklm.googleapis.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,labstailwind.pa.googleapis.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,notebook.google,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,notebook.google.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,notebooklm.google,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,notebooklm.google.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,jules.google,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,jules.google.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,labs.google,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,labs.google.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,flow.google,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,flow.google.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,aisandbox-pa.googleapis.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,aicode.googleapis.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,aida.googleapis.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,opal.google,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,opal.google.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN,antigravity-pa.googleapis.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN,antigravity.googleapis.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,antigravity.google,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,antigravity-unleash.goog,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch,DOMAIN-SUFFIX,stitch.withgoogle.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+Meta / Muse,DOMAIN-SUFFIX,meta.ai,AI,official-root-and-community-dependencies,https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/ ; https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+Meta / Muse,DOMAIN-SUFFIX,muse.ai,AI,official-root-and-community-dependencies,https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/ ; https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+Meta / Muse,DOMAIN-SUFFIX,metaaivm.com,AI,official-root-and-community-dependencies,https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/ ; https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+Meta / Muse,DOMAIN-SUFFIX,metaaiusercontent.com,AI,official-root-and-community-dependencies,https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/ ; https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+Meta / Muse,DOMAIN,ai.meta.com,AI,official-root-and-community-dependencies,https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/ ; https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+Grok / xAI,DOMAIN-SUFFIX,grok.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/xai
+Grok / xAI,DOMAIN-SUFFIX,x.ai,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/xai
+Grok / xAI,DOMAIN-SUFFIX,grok.x.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/xai
+Perplexity,DOMAIN-SUFFIX,perplexity.ai,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/perplexity
+Perplexity,DOMAIN-SUFFIX,perplexity.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/perplexity
+Perplexity,DOMAIN-SUFFIX,pplx.ai,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/perplexity
+Perplexity,DOMAIN,pplx-res.cloudinary.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/perplexity
+Perplexity,DOMAIN,ppl-ai-file-upload.s3.amazonaws.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/perplexity
+Microsoft Copilot,DOMAIN-SUFFIX,copilot.microsoft.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+Microsoft Copilot,DOMAIN-SUFFIX,copilot.cloud.microsoft,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+Microsoft Copilot,DOMAIN-SUFFIX,copilot.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+Microsoft Copilot,DOMAIN-SUFFIX,copilot-stg.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+Microsoft Copilot,DOMAIN,sydney.bing.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+GitHub Copilot,DOMAIN-SUFFIX,githubcopilot.com,AI,official-and-community,https://docs.github.com/en/copilot/reference/copilot-allowlist-reference ; https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/github-copilot
+GitHub Copilot,DOMAIN,copilot-proxy.githubusercontent.com,AI,official-and-community,https://docs.github.com/en/copilot/reference/copilot-allowlist-reference ; https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/github-copilot
+GitHub Copilot,DOMAIN,copilot-workspace.githubnext.com,AI,official-and-community,https://docs.github.com/en/copilot/reference/copilot-allowlist-reference ; https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/github-copilot
+GitHub Copilot,DOMAIN,copilotprodattachments.blob.core.windows.net,AI,official-and-community,https://docs.github.com/en/copilot/reference/copilot-allowlist-reference ; https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/github-copilot
+Cursor,DOMAIN-SUFFIX,cursor.com,AI,official,https://prod.cursor.com/docs/enterprise/network-configuration
+Cursor,DOMAIN-SUFFIX,cursor.sh,AI,official,https://prod.cursor.com/docs/enterprise/network-configuration
+Cursor,DOMAIN-SUFFIX,cursorapi.com,AI,official,https://prod.cursor.com/docs/enterprise/network-configuration
+Cursor,DOMAIN-SUFFIX,cursor-cdn.com,AI,official,https://prod.cursor.com/docs/enterprise/network-configuration
+Cursor,DOMAIN-SUFFIX,cursorvm.com,AI,official,https://prod.cursor.com/docs/enterprise/network-configuration
+Windsurf / Codeium,DOMAIN-SUFFIX,windsurf.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/windsurf
+Windsurf / Codeium,DOMAIN-SUFFIX,windsurf.build,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/windsurf
+Windsurf / Codeium,DOMAIN-SUFFIX,codeium.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/windsurf
+Windsurf / Codeium,DOMAIN-SUFFIX,codeiumdata.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/windsurf
+Manus,DOMAIN-SUFFIX,manus.im,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/manus
+Manus,DOMAIN-SUFFIX,manuscdn.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/manus
+Poe,DOMAIN-SUFFIX,poe.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/poe
+Poe,DOMAIN-SUFFIX,poecdn.net,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/poe
+Mistral / Le Chat,DOMAIN-SUFFIX,mistral.ai,AI,official-root,https://mistral.ai/
+OpenRouter,DOMAIN-SUFFIX,openrouter.ai,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+Groq,DOMAIN-SUFFIX,groq.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+Cerebras,DOMAIN-SUFFIX,cerebras.ai,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+Cohere,DOMAIN-SUFFIX,cohere.ai,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+Cohere,DOMAIN-SUFFIX,cohere.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+Devin,DOMAIN-SUFFIX,devin.ai,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+Kiro,DOMAIN-SUFFIX,kiro.dev,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+CodeRabbit,DOMAIN-SUFFIX,coderabbit.ai,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+CodeRabbit,DOMAIN,coderabbit.gallery.vsassets.io,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+JetBrains AI,DOMAIN-SUFFIX,jetbrains.ai,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/jetbrains-ai
+JetBrains AI,DOMAIN-SUFFIX,grazie.ai,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/jetbrains-ai
+JetBrains AI,DOMAIN,grazie.aws.intellij.net,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/jetbrains-ai
+Zed,DOMAIN-SUFFIX,zed.dev,AI,community-maintainer,https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+Trae,DOMAIN-SUFFIX,trae.ai,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bytedance-ai-!cn ; https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/TikTok/TikTok.list
+Trae,DOMAIN-SUFFIX,marscode.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bytedance-ai-!cn ; https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/TikTok/TikTok.list
+Trae,DOMAIN,trae-api-sg.mchost.guru,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bytedance-ai-!cn ; https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/TikTok/TikTok.list
+Coze international,DOMAIN-SUFFIX,coze.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bytedance-ai-!cn
+Midjourney,DOMAIN-SUFFIX,midjourney.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+ElevenLabs,DOMAIN-SUFFIX,elevenlabs.io,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/elevenlabs
+ElevenLabs,DOMAIN-SUFFIX,elevenlabs.com,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/elevenlabs
+Jasper / Clipdrop,DOMAIN-SUFFIX,jasper.ai,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+Jasper / Clipdrop,DOMAIN-SUFFIX,clipdrop.co,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+Lovart,DOMAIN-SUFFIX,lovart.ai,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+Tripo,DOMAIN-SUFFIX,tripo3d.ai,AI,community-maintainer,https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+Runway,DOMAIN-SUFFIX,runwayml.com,AI,official-root-only,https://help.runwayml.com/hc/en-us/articles/50683115755155-Runway-API-FAQs
+Suno,DOMAIN-SUFFIX,suno.com,AI,official-root-only,https://suno.com/
+Leonardo,DOMAIN-SUFFIX,leonardo.ai,AI,official-root-only,https://leonardo.ai/
+Recraft,DOMAIN-SUFFIX,recraft.ai,AI,official-root-only,https://www.recraft.ai/
+Krea,DOMAIN-SUFFIX,krea.ai,AI,official-root-only,https://www.krea.ai/
+Ideogram,DOMAIN-SUFFIX,ideogram.ai,AI,official-root-only,https://ideogram.ai/
+Together,DOMAIN-SUFFIX,together.ai,AI,official-root-only,https://www.together.ai/
+Fireworks,DOMAIN-SUFFIX,fireworks.ai,AI,official-root-only,https://fireworks.ai/
+Replicate,DOMAIN-SUFFIX,replicate.com,AI,official-root-only,https://replicate.com/
+fal,DOMAIN-SUFFIX,fal.ai,AI,official-root-only,https://fal.ai/
+Gamma,DOMAIN-SUFFIX,gamma.app,AI,official-root-only,https://gamma.app/
+Elicit,DOMAIN-SUFFIX,elicit.com,AI,official-root-only,https://elicit.com/
+Consensus,DOMAIN-SUFFIX,consensus.app,AI,official-root-only,https://consensus.app/
+SciSpace,DOMAIN-SUFFIX,scispace.com,AI,official-root-only,https://scispace.com/
+Lovable,DOMAIN-SUFFIX,lovable.dev,AI,official-root-only,https://lovable.dev/
+Bolt,DOMAIN-SUFFIX,bolt.new,AI,official-root-only,https://bolt.new/
+v0,DOMAIN-SUFFIX,v0.app,AI,official-root-only,https://v0.app/
+Replit,DOMAIN-SUFFIX,replit.com,AI,official-root-only,https://replit.com/
+Genspark,DOMAIN-SUFFIX,genspark.ai,AI,official-root-only,https://www.genspark.ai/
+You.com,DOMAIN-SUFFIX,you.com,AI,official-root-only,https://you.com/

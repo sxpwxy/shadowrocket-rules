@@ -1,0 +1,315 @@
+# AI core rules for Shadowrocket / 2026-11-01
+# Personal routing snapshot, not an upstream release. No proxy policy in RULE-SET file.
+# Official-root-only entries cover product roots; third-party auth/CDN dependencies may be missing.
+# No entire googleapis.com / facebook.com / livekit.cloud / shared cloud-provider suffixes.
+# Includes MIT-licensed v2fly/domain-list-community data; see THIRD_PARTY_NOTICES.txt.
+
+# OpenAI / ChatGPT / Codex / Sora
+# Source: https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,oaistatsig.com
+
+# OpenAI specific storage/CDN
+# Source: https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps ; https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.list
+DOMAIN,cdn.openaimerge.com
+DOMAIN,openaiassets.blob.core.windows.net
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,openaicom.imgix.net
+
+# OpenAI legacy voice hostnames
+# Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.list
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+
+# Anthropic / Claude / Claude Code
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/anthropic ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,claudemcpcontent.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN,anthropic.auth0.com
+DOMAIN,anthropic.com.cdn.cloudflare.net
+
+# Claude marketing CDN
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/anthropic
+DOMAIN,servd-anthropic-website.b-cdn.net
+
+# Google AI / Gemini / AI Studio / NotebookLM / Antigravity / Jules / Flow / Opal / Stitch
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
+DOMAIN,ai.google.dev
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,ai.studio
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,gemini.google
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,gemini.gstatic.com
+DOMAIN,geminiweb-pa.clients.google.com
+DOMAIN,geminiweb-pa.clients6.google.com
+DOMAIN,appsgenaiserver-pa.clients.google.com
+DOMAIN,appsgenaiserver-pa.clients6.google.com
+DOMAIN,appsgenaiserver-pa.googleapis.com
+DOMAIN,cloudaicompanion.googleapis.com
+DOMAIN,cloudcode-pa.googleapis.com
+DOMAIN,daily-cloudcode-pa.googleapis.com
+DOMAIN,notebooklm-pa.googleapis.com
+DOMAIN,notebooklm.googleapis.com
+DOMAIN-SUFFIX,labstailwind.pa.googleapis.com
+DOMAIN-SUFFIX,notebook.google
+DOMAIN-SUFFIX,notebook.google.com
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,jules.google
+DOMAIN-SUFFIX,jules.google.com
+DOMAIN-SUFFIX,labs.google
+DOMAIN-SUFFIX,labs.google.com
+DOMAIN-SUFFIX,flow.google
+DOMAIN-SUFFIX,flow.google.com
+DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
+DOMAIN-SUFFIX,aicode.googleapis.com
+DOMAIN-SUFFIX,aida.googleapis.com
+DOMAIN-SUFFIX,opal.google
+DOMAIN-SUFFIX,opal.google.com
+DOMAIN,antigravity-pa.googleapis.com
+DOMAIN,antigravity.googleapis.com
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN-SUFFIX,antigravity-unleash.goog
+DOMAIN-SUFFIX,stitch.withgoogle.com
+
+# Meta / Muse
+# Source: https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/ ; https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,metaaivm.com
+DOMAIN-SUFFIX,metaaiusercontent.com
+DOMAIN,ai.meta.com
+
+# Grok / xAI
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/xai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.x.com
+
+# Perplexity
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/perplexity
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,perplexity.com
+DOMAIN-SUFFIX,pplx.ai
+DOMAIN,pplx-res.cloudinary.com
+DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
+
+# Microsoft Copilot
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn ; https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,copilot.cloud.microsoft
+DOMAIN-SUFFIX,copilot.com
+DOMAIN-SUFFIX,copilot-stg.com
+DOMAIN,sydney.bing.com
+
+# GitHub Copilot
+# Source: https://docs.github.com/en/copilot/reference/copilot-allowlist-reference ; https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/github-copilot
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN,copilot-proxy.githubusercontent.com
+DOMAIN,copilot-workspace.githubnext.com
+DOMAIN,copilotprodattachments.blob.core.windows.net
+
+# Cursor
+# Source: https://prod.cursor.com/docs/enterprise/network-configuration
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,cursorvm.com
+
+# Windsurf / Codeium
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/windsurf
+DOMAIN-SUFFIX,windsurf.com
+DOMAIN-SUFFIX,windsurf.build
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,codeiumdata.com
+
+# Manus
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/manus
+DOMAIN-SUFFIX,manus.im
+DOMAIN-SUFFIX,manuscdn.com
+
+# Poe
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/poe
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,poecdn.net
+
+# Mistral / Le Chat
+# Source: https://mistral.ai/
+DOMAIN-SUFFIX,mistral.ai
+
+# OpenRouter
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+DOMAIN-SUFFIX,openrouter.ai
+
+# Groq
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+DOMAIN-SUFFIX,groq.com
+
+# Cerebras
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+DOMAIN-SUFFIX,cerebras.ai
+
+# Cohere
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+DOMAIN-SUFFIX,cohere.ai
+DOMAIN-SUFFIX,cohere.com
+
+# Devin
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+DOMAIN-SUFFIX,devin.ai
+
+# Kiro
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+DOMAIN-SUFFIX,kiro.dev
+
+# CodeRabbit
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+DOMAIN-SUFFIX,coderabbit.ai
+DOMAIN,coderabbit.gallery.vsassets.io
+
+# JetBrains AI
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/jetbrains-ai
+DOMAIN-SUFFIX,jetbrains.ai
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN,grazie.aws.intellij.net
+
+# Zed
+# Source: https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+DOMAIN-SUFFIX,zed.dev
+
+# Trae
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bytedance-ai-!cn ; https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/TikTok/TikTok.list
+DOMAIN-SUFFIX,trae.ai
+DOMAIN-SUFFIX,marscode.com
+DOMAIN,trae-api-sg.mchost.guru
+
+# Coze international
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bytedance-ai-!cn
+DOMAIN-SUFFIX,coze.com
+
+# Midjourney
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+DOMAIN-SUFFIX,midjourney.com
+
+# ElevenLabs
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/elevenlabs
+DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,elevenlabs.com
+
+# Jasper / Clipdrop
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+DOMAIN-SUFFIX,jasper.ai
+DOMAIN-SUFFIX,clipdrop.co
+
+# Lovart
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+DOMAIN-SUFFIX,lovart.ai
+
+# Tripo
+# Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn
+DOMAIN-SUFFIX,tripo3d.ai
+
+# Runway
+# Source: https://help.runwayml.com/hc/en-us/articles/50683115755155-Runway-API-FAQs
+DOMAIN-SUFFIX,runwayml.com
+
+# Suno
+# Source: https://suno.com/
+DOMAIN-SUFFIX,suno.com
+
+# Leonardo
+# Source: https://leonardo.ai/
+DOMAIN-SUFFIX,leonardo.ai
+
+# Recraft
+# Source: https://www.recraft.ai/
+DOMAIN-SUFFIX,recraft.ai
+
+# Krea
+# Source: https://www.krea.ai/
+DOMAIN-SUFFIX,krea.ai
+
+# Ideogram
+# Source: https://ideogram.ai/
+DOMAIN-SUFFIX,ideogram.ai
+
+# Together
+# Source: https://www.together.ai/
+DOMAIN-SUFFIX,together.ai
+
+# Fireworks
+# Source: https://fireworks.ai/
+DOMAIN-SUFFIX,fireworks.ai
+
+# Replicate
+# Source: https://replicate.com/
+DOMAIN-SUFFIX,replicate.com
+
+# fal
+# Source: https://fal.ai/
+DOMAIN-SUFFIX,fal.ai
+
+# Gamma
+# Source: https://gamma.app/
+DOMAIN-SUFFIX,gamma.app
+
+# Elicit
+# Source: https://elicit.com/
+DOMAIN-SUFFIX,elicit.com
+
+# Consensus
+# Source: https://consensus.app/
+DOMAIN-SUFFIX,consensus.app
+
+# SciSpace
+# Source: https://scispace.com/
+DOMAIN-SUFFIX,scispace.com
+
+# Lovable
+# Source: https://lovable.dev/
+DOMAIN-SUFFIX,lovable.dev
+
+# Bolt
+# Source: https://bolt.new/
+DOMAIN-SUFFIX,bolt.new
+
+# v0
+# Source: https://v0.app/
+DOMAIN-SUFFIX,v0.app
+
+# Replit
+# Source: https://replit.com/
+DOMAIN-SUFFIX,replit.com
+
+# Genspark
+# Source: https://www.genspark.ai/
+DOMAIN-SUFFIX,genspark.ai
+
+# You.com
+# Source: https://you.com/
+DOMAIN-SUFFIX,you.com
