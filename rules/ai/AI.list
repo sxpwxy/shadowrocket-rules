@@ -13,7 +13,7 @@
 # Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/anthropic
 # Source: custom/AI-extra.list
 # Source: custom/AI-Dependencies.list
-# TOTAL: 223
+# TOTAL: 226
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,geller-pa.googleapis.com
@@ -221,6 +221,9 @@ DOMAIN,oauth2.googleapis.com
 DOMAIN,oauthaccountmanager.googleapis.com
 DOMAIN,signaler-pa.googleapis.com
 DOMAIN,webchannel-robinfrontend-pa.googleapis.com
+DOMAIN-SUFFIX,accountscenter.meta.com
+DOMAIN,auth.meta.com
+DOMAIN,accounts.meta.com
 DOMAIN,meta.graph.meta.com
 DOMAIN,ar.graph.meta.com
 DOMAIN,graph.facebook.com

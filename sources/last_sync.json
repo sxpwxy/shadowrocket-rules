@@ -1,12 +1,12 @@
 {
-  "ai_domain_rules": 223,
+  "ai_domain_rules": 226,
   "blocked_broad_ai_rules": [],
   "branch": "main",
-  "last_successful_fetch_utc": "2026-11-04T02:24:11.077502+00:00",
+  "last_successful_fetch_utc": "2026-11-04T02:26:27.122915+00:00",
   "main_rules_per_config": 39,
   "offline_build": false,
   "repository": "sxpwxy/shadowrocket-rules",
-  "selected_dependency_rules": 40,
+  "selected_dependency_rules": 43,
   "sources": {
     "Amazon": {
       "excluded_rules": [],
