@@ -19,6 +19,8 @@ CHECKS = {
     "www.xiaohongshu.com": "DIRECT", "www.douyin.com": "DIRECT",
     "www.tiktok.com": "TikTok", "oauth2.googleapis.com": "AI",
     "meta.graph.meta.com": "AI", "graph.facebook.com": "AI", "api.revenuecat.com": "AI",
+    "gateway.accountscenter.meta.com": "AI", "accountscenter.meta.com": "AI",
+    "auth.meta.com": "AI", "accounts.meta.com": "AI",
     "o33249.ingest.us.sentry.io": "AI",
     "webchannel-robinfrontend-pa.googleapis.com": "AI",
     "copilot.microsoft.com": "AI", "grok.x.com": "AI", "trae.ai": "AI",
@@ -68,7 +70,7 @@ def main():
     report = sync.read_json(ROOT / "sources/last_sync.json")
     providers = sync.read_json(ROOT / "sources/upstreams.json")
     result = {
-        "review_date": "2026-11-01",
+        "review_date": "2026-11-04",
         "scope": "Static domain matcher samples only. No DNS, IP resolution, USER-AGENT, URL, real-device or Shadowrocket-engine validation.",
         "rules_fetched_at_utc": report.get("last_successful_fetch_utc"),
         "regular_sources_checked": len(providers),

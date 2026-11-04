@@ -40,3 +40,6 @@
 
 "Muse","graph.facebook.com","Meta Graph 共享接口；具体用途未确认","新手机日志中与 hatch.metaaivm.com 同时出现；不证明请求仅来自 Muse；其他 App 访问同域也走 AI","user-observed-public-hostname","DOMAIN","2026-11-01"
 "Muse / shared Meta web","www.facebook.com","共享网页与登录入口；具体请求用途未确认","用户明确要求精确加入；其他 App/浏览器访问相同主机也走 AI；不扩展至整个 facebook.com 或媒体 CDN","user-requested-exact-host","DOMAIN","2026-11-01"
+"Muse / Meta account","accountscenter.meta.com","账户中心及登录验证子域（包含 gateway.accountscenter.meta.com）","用户登录 Muse 时观察到该网关命中 MATCH；根地址公开访问重定向到 auth.meta.com/oidc/；并非 Muse 专用，不能从域名确定请求正文","User-observed hostname on 2026-11-04; https://accountscenter.meta.com/","DOMAIN-SUFFIX","2026-11-04"
+"Muse / Meta account","auth.meta.com","Meta 账号认证入口","Meta 官方开发文档列出 auth.meta.com/device；账户中心使用该主机的 OIDC 入口；共享认证服务，不保证所有 Muse 客户端均使用","https://developers.meta.com/vr/resources/test-users/","DOMAIN","2026-11-04"
+"Muse / Meta account","accounts.meta.com","共享账号及 passkey 相关验证","Mozilla 一手浏览器报告记录此 RP ID 和 well-known/webauthn 主机；不是 Muse 专属允许列表，不推断该截图访问了此主机","https://bugzilla.mozilla.org/show_bug.cgi?id=2085450","DOMAIN","2026-11-04"

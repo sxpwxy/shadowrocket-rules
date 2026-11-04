@@ -34,6 +34,11 @@ DOMAIN,signaler-pa.googleapis.com
 DOMAIN,webchannel-robinfrontend-pa.googleapis.com
 
 # Muse
+# Shared Meta account login/verification, requested on 2026-11-04.
+# The account-center suffix includes gateway.accountscenter.meta.com.
+DOMAIN-SUFFIX,accountscenter.meta.com
+DOMAIN,auth.meta.com
+DOMAIN,accounts.meta.com
 DOMAIN,meta.graph.meta.com
 DOMAIN,ar.graph.meta.com
 # Shared Graph host observed beside the Muse VM connection; not Muse-exclusive.

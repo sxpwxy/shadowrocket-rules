@@ -17,7 +17,7 @@
 
 ## 本次默认启用的辅助域名
 
-共 40 条规则。包括 WorkOS 登录资源、Cloudflare 挑战、Stripe 支付脚本、RevenueCat 订阅、特定 Sentry/Datadog 接收主机、LiveKit 中继、Google 账户及令牌接口，以及手机日志中的三个 Meta Graph 主机。它们与已有核心规则合并到同一个 AI.list，主配置仍为 39 条规则。
+共 43 条规则。包括 WorkOS 登录资源、Cloudflare 挑战、Stripe 支付脚本、RevenueCat 订阅、特定 Sentry/Datadog 接收主机、LiveKit 中继、Google 账户及令牌接口、Meta 账户登录和验证入口，以及日志中的三个 Meta Graph 主机。它们与已有核心规则合并到同一个 AI.list，主配置仍为 39 条规则。
 
 - 官方“允许列表”说明网络应允许访问，不代表每个客户端每次一定访问，也不是官方的代理分流建议。
 - Google 的 accounts.google.com、oauth2.googleapis.com，以及 RevenueCat、WorkOS、Stripe、Cloudflare、LiveKit 等主机会被其他服务共用。其他 App 访问相同主机也会走 AI。
@@ -36,6 +36,7 @@
 4. 如要撤销某条补充，可在自定义文件删除它，或在 AI-exclude.list 放入完全相同的规则行。若仍有另一条父域名后缀覆盖它，必须同时处理父规则。
 5. 主配置导入地址不变。手机重新使用/编译当前配置以获取远程规则集，更新后断开重连，并重新打开待测 App；核对一条新日志的策略和具体节点。
 6. 多域名与共享依赖意味着这仍是按目的域名分流，不能保证按 App 绑定全部流量，也不能保证不发生账号安全验证或地区限制。
+7. FlClash 使用同一个 AI.list 时，在「自定义配置资源 → 规则集」同步该远程资源，然后重新应用「日常分流」并用新连接核对 RuleSet(AI) 和代理链；若资源名称未改，无需重建策略组。该纯域名清单可由 FlClash 编译为 domain。
 
 ## 公开来源
 
@@ -62,3 +63,5 @@
 2026-11-01 后续日志补充：graph.facebook.com 与 meta.graph.meta.com 是不同的完整主机。前者现以 DOMAIN 精确加入；www.facebook.com 现按用户明确要求精确加入 AI；整个 facebook.com 后缀及其他未单列子域仍保持原分组。其他 App 对 graph.facebook.com 的访问也会走 AI，不能仅凭日志推断具体请求内容或唯一发起 App。
 
 2026-11-01 用户追加要求：将 www.facebook.com 以 DOMAIN 精确路由到 AI，不把整个 facebook.com、fbcdn.net 或 cdninstagram.com 加入 AI。其他 App 或浏览器访问该完整主机也会使用 AI 出口；该主机流量不保证只包含登录或少量数据。
+
+2026-11-04 登录补充：用户在 Muse 登录时观察到 gateway.accountscenter.meta.com 命中 MATCH。按要求新增 DOMAIN-SUFFIX,accountscenter.meta.com（包含该网关、账户中心根主机及其子域），并将 auth.meta.com、accounts.meta.com 以 DOMAIN 精确纳入。Meta 官方开发文档明确使用 auth.meta.com/device 登录；accountscenter.meta.com 本次公开访问重定向到 auth.meta.com/oidc/；accounts.meta.com 的 passkey 用途参见 Mozilla 的一手浏览器问题记录。登录、验证使用这些共享地址的其他 Meta 产品也会走 AI；不据此认定截图请求的具体内容或保证完整 Muse 登录已全部覆盖。现有 accounts.google.com、Google 令牌接口、选定 WorkOS/Cloudflare 主机和产品认证根域继续保留，未启用泛匹配 login/auth 或所有第三方 SSO。
