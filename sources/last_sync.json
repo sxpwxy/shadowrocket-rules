@@ -2,7 +2,7 @@
   "ai_domain_rules": 226,
   "blocked_broad_ai_rules": [],
   "branch": "main",
-  "last_successful_fetch_utc": "2026-11-06T02:32:12.865939+00:00",
+  "last_successful_fetch_utc": "2026-11-06T16:59:45.660941+00:00",
   "main_rules_per_config": 39,
   "offline_build": false,
   "repository": "sxpwxy/shadowrocket-rules",
