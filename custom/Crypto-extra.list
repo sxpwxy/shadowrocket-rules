@@ -1,0 +1,28 @@
+# Cryptocurrency routing additions. No proxy policy column.
+# Routing classification, not a verified login/download URL directory.
+# Official regional endpoints: https://bybit-exchange.github.io/docs/v5/guide
+DOMAIN-SUFFIX,bybit.kz
+DOMAIN-SUFFIX,bybitgeorgia.ge
+DOMAIN-SUFFIX,bybit.tr
+DOMAIN-SUFFIX,bybit.ae
+DOMAIN-SUFFIX,bybit.eu
+DOMAIN-SUFFIX,bybit.id
+# Official Bybit guide lists these API hosts; do not capture the entire partner root.
+DOMAIN,api.manepa.jp
+DOMAIN,api-testnet.manepa.jp
+DOMAIN,api.spark-fintech.com
+DOMAIN,api-testnet.spark-fintech.com
+DOMAIN,stream.manepa.jp
+DOMAIN,stream.spark-fintech.com
+# TradingView's official widget documentation uses this separate domain.
+DOMAIN-SUFFIX,tradingview-widget.com
+# Ledger Wallet / Ledger Live official site and product subdomains.
+DOMAIN-SUFFIX,ledger.com
+# Additional wallets, analytics and explorers checked against their official sites.
+DOMAIN-SUFFIX,upbit.com
+DOMAIN-SUFFIX,rabby.io
+DOMAIN-SUFFIX,exodus.com
+DOMAIN-SUFFIX,solscan.io
+DOMAIN-SUFFIX,dune.com
+DOMAIN-SUFFIX,dexscreener.com
+DOMAIN-SUFFIX,mempool.space

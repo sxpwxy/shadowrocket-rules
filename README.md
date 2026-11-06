@@ -47,6 +47,15 @@ python3 scripts/sync_rules.py --repo 你的用户名/你的仓库名 --branch ma
 
 ## 更新链路
 
+### 币圈独立分流（Shadowrocket / FlClash）
+
+新增覆盖交易所、钱包、行情图表、区块浏览器和常用 Web3/DeFi 的规则集，不限于三个交易所。两种格式由同一份数据生成，现有 AI/视频分流及默认主配置保持独立。
+
+- Shadowrocket：[Crypto.list](https://raw.githubusercontent.com/sxpwxy/shadowrocket-rules/main/rules/crypto/Crypto.list)
+- FlClash / Mihomo：[Crypto.yaml](https://raw.githubusercontent.com/sxpwxy/shadowrocket-rules/main/rules/crypto/Crypto.yaml)（classical / yaml）
+- [在当前配置中新增分组与规则的详细步骤](docs/CRYPTO-ROUTING.md)。不需重导整个配置；两个 addon 文件仅供合并参考。
+- 每日 Actions 同步三个币圈上游并合并人工补充；状态见 `sources/crypto-last-sync.json`。这是路由分类，不是站点可信白名单，也不保证覆盖每个 App 的所有第三方请求。
+
 原作者更新规则 → GitHub Actions 获取和校验 → 合并你的补充 → 写回本仓库 → 小火箭刷新规则集。
 
 现有 32 个常规规则来源继续同步；AI 的选定社区来源现为 11 个（增加 Anthropic）。
@@ -100,6 +109,8 @@ python3 scripts/sync_rules.py --repo 你的用户名/你的仓库名 --branch ma
 | `custom/Max-Extra.list` | Max 补充 | 不覆盖 |
 | `sources/ai-upstreams.json` | 选定的社区 AI 服务来源 | 不覆盖 |
 | `sources/upstreams.json` | 32 个常规规则的地址、格式和策略 | 不覆盖 |
+| `sources/crypto-upstreams.json` | 三个币圈规则来源 | 不覆盖 |
+| `custom/Crypto-extra.list`、`custom/Crypto-exclude.list` | 币圈补充与精确排除 | 不覆盖 |
 | `templates/groups.conf`、`settings.json` | 策略组与订阅筛选 | 不覆盖 |
 | `rules/**`、`config/**` | 自动生成的文件 | 会重建，勿在这里手改 |
 
@@ -146,6 +157,7 @@ python3 scripts/sync_rules.py --offline --repo 你的用户名/你的仓库名 -
 - LOWERTOP/Shadowrocket：原配置架构和基础网络设置。
 - v2fly/domain-list-community：选定 AI 服务域名，MIT，许可见 `licenses/MIT-v2fly.txt`。
 - blackmatrix7/ios_rule_script：常规服务规则和镜像来源，GPL-2.0，许可见 `licenses/GPL-2.0-blackmatrix7.txt`，对应可编辑来源缓存和生成脚本一并保留。
+- MetaCubeX/meta-rules-dat：加密货币分类规则，GPL-3.0，许可见 `licenses/GPL-3.0-MetaCubeX.txt`；对应源文件缓存、上游地址和处理脚本一并保留，第三方规则保留原许可。
 - OpenAI：公开的 [chatgpt-voice.json](https://openai.com/chatgpt-voice.json)。
 - `sources/AI-extra-evidence.csv`：上一版个人 AI 补充的逐项来源。
 

@@ -1,0 +1,17 @@
+# MERGE SNIPPET ONLY: keep the existing proxy providers, groups and rules.
+# Replace the placeholder provider name with your existing provider name.
+proxy-groups:
+  - name: 币圈
+    type: select
+    use: [REPLACE_WITH_EXISTING_PROVIDER_NAME]
+rule-providers:
+  Crypto:
+    type: http
+    behavior: classical
+    format: yaml
+    interval: 86400
+    path: ./ruleset/Crypto.yaml
+    url: https://raw.githubusercontent.com/sxpwxy/shadowrocket-rules/main/rules/crypto/Crypto.yaml
+rules:
+  # Insert before broad rules and MATCH.
+  - RULE-SET,Crypto,币圈

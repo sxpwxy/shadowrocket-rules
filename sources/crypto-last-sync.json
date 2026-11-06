@@ -1,0 +1,541 @@
+{
+  "checks": [
+    {
+      "actual": true,
+      "expected": true,
+      "host": "www.bybit.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "api.bybit.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "stream.bybit.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "api.bytick.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "www.bybit.kz",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "api.bybitgeorgia.ge",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "stream.bybit.kz",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "api.bybit.eu",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "api.manepa.jp",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "api.spark-fintech.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "accounts.binance.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "api.binance.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "stream.binance.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "data.binance.vision",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "public.bnbstatic.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "www.binancefuture.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "www.okx.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "openapi.okx.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "ws.okx.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "wspap.okx.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "us.okx.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "eea.okx.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "www.gate.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "api.gateio.services",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "www.bitget.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "www.mexc.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "www.kucoin.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "www.kraken.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "www.coinbase.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "www.htx.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "www.gemini.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "www.crypto.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "metamask.io",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "phantom.app",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "trustwallet.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "onekey.so",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "safepal.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "www.ledger.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "trezor.io",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "token.im",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "www.tradingview.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "widgets.tradingview-widget.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "www.coingecko.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "coinmarketcap.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "www.coinglass.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "defillama.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "nansen.ai",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "etherscan.io",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "bscscan.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "tronscan.org",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "oklink.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "app.uniswap.org",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "app.aave.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "pancakeswap.finance",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "debank.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "walletconnect.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "redotpay.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "www.coindesk.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "sg-api.upbit.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "rabby.io",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "www.exodus.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "pro-api.solscan.io",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "dune.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "api.dexscreener.com",
+      "pass": true
+    },
+    {
+      "actual": true,
+      "expected": true,
+      "host": "mempool.space",
+      "pass": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "host": "chatgpt.com",
+      "pass": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "host": "gemini.google.com",
+      "pass": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "host": "www.youtube.com",
+      "pass": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "host": "www.baidu.com",
+      "pass": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "host": "github.com",
+      "pass": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "host": "random.cloudfront.net",
+      "pass": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "host": "unrelated.amazonaws.com",
+      "pass": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "host": "other.appsflyersdk.com",
+      "pass": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "host": "accounts.google.com",
+      "pass": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "host": "challenges.cloudflare.com",
+      "pass": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "host": "api.sumsub.com",
+      "pass": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "host": "www.crunchbase.com",
+      "pass": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "host": "ipfs.io",
+      "pass": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "host": "www.binance.com.evil.example",
+      "pass": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "host": "notbinance.example",
+      "pass": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "host": "okx.example",
+      "pass": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "host": "metamask.example",
+      "pass": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "host": "unrelated.manepa.jp",
+      "pass": true
+    }
+  ],
+  "excluded_rules": [
+    "DOMAIN-SUFFIX,appsflayer.com",
+    "DOMAIN-SUFFIX,crunchbase.com",
+    "DOMAIN-SUFFIX,ipfs.io"
+  ],
+  "offline_build": true,
+  "rules": 402,
+  "sources": [
+    {
+      "domain_rules": 240,
+      "id": "metacubex-cryptocurrency",
+      "sha256": "152ee7a06993ca9c7c67ef75a7cdba0f9baee27d70f64b0455ceb96ecbe2d63f",
+      "skipped_rules": [],
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/category-cryptocurrency.yaml"
+    },
+    {
+      "domain_rules": 197,
+      "id": "blackmatrix-crypto",
+      "sha256": "2190a7558505a41e2eb41a6d21d78c41b48e14e4fba1970eb41865086deeb8d8",
+      "skipped_rules": [
+        "DOMAIN-KEYWORD,binance",
+        "DOMAIN-KEYWORD,huobi",
+        "DOMAIN-KEYWORD,metamask",
+        "DOMAIN-KEYWORD,okx",
+        "PROCESS-NAME,Binance.exe",
+        "PROCESS-NAME,Huobi.exe",
+        "PROCESS-NAME,OKX.exe"
+      ],
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Crypto/Crypto.list"
+    },
+    {
+      "domain_rules": 12,
+      "id": "blackmatrix-binance",
+      "sha256": "034b1730ac0adb39a8a88685d6f6864a7070a14d722acbf8f3859806b28b92a4",
+      "skipped_rules": [],
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Binance/Binance.list"
+    }
+  ],
+  "validation_scope": "Portable domain syntax and static samples only; no real-device, exchange login, transaction, KYC or security verification."
+}

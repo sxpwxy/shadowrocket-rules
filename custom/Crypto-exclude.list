@@ -1,0 +1,4 @@
+# Generic / shared services are not automatically cryptocurrency-specific.
+DOMAIN-SUFFIX,appsflayer.com
+DOMAIN-SUFFIX,crunchbase.com
+DOMAIN-SUFFIX,ipfs.io

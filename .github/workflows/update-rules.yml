@@ -11,6 +11,7 @@ on:
       - 'templates/**'
       - 'sources/upstreams.json'
       - 'sources/ai-upstreams.json'
+      - 'sources/crypto-upstreams.json'
       - 'scripts/**'
       - 'tests/**'
       - 'settings.json'
@@ -38,9 +39,14 @@ jobs:
         run: python3 scripts/sync_rules.py
       - name: Check sample domain routing
         run: python3 scripts/audit_routes.py
+      - name: Fetch, validate and generate portable crypto rules
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_REF_NAME: ${{ github.ref_name }}
+        run: python3 scripts/sync_crypto.py
       - name: Commit verified generated rules
         run: |
-          git add config rules sources/cache sources/cache-metadata.json sources/last_sync.json sources/routing-audit.json IMPORT_URLS.txt
+          git add config rules sources/cache sources/crypto-cache sources/cache-metadata.json sources/last_sync.json sources/crypto-last-sync.json sources/routing-audit.json IMPORT_URLS.txt
           if git diff --cached --quiet
           then
             echo "No rule changes"

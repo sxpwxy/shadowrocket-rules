@@ -1,0 +1,22 @@
+rule,source,reason,scope_limit
+"DOMAIN-SUFFIX,bybit.kz",https://bybit-exchange.github.io/docs/v5/guide,Official regional API domain,Routing classification only
+"DOMAIN-SUFFIX,bybitgeorgia.ge",https://bybit-exchange.github.io/docs/v5/guide,Official regional API domain,Routing classification only
+"DOMAIN-SUFFIX,bybit.tr",https://bybit-exchange.github.io/docs/v5/guide,Official regional API domain,Routing classification only
+"DOMAIN-SUFFIX,bybit.ae",https://bybit-exchange.github.io/docs/v5/guide,Official regional API domain,Routing classification only
+"DOMAIN-SUFFIX,bybit.eu",https://bybit-exchange.github.io/docs/v5/guide,Official regional API domain,Routing classification only
+"DOMAIN-SUFFIX,bybit.id",https://bybit-exchange.github.io/docs/v5/guide,Official regional API domain,Routing classification only
+"DOMAIN,api.manepa.jp",https://bybit-exchange.github.io/docs/v5/guide,Officially listed partner API host,Exact host only
+"DOMAIN,api-testnet.manepa.jp",https://bybit-exchange.github.io/docs/v5/guide,Officially listed testnet API host,Exact host only
+"DOMAIN,api.spark-fintech.com",https://bybit-exchange.github.io/docs/v5/guide,Officially listed partner API host,Exact host only
+"DOMAIN,api-testnet.spark-fintech.com",https://bybit-exchange.github.io/docs/v5/guide,Officially listed testnet API host,Exact host only
+"DOMAIN,stream.manepa.jp",https://bybit-exchange.github.io/docs/v5/ws/connect,Officially listed partner WebSocket host,Exact host only
+"DOMAIN,stream.spark-fintech.com",https://bybit-exchange.github.io/docs/v5/ws/connect,Officially listed partner WebSocket host,Exact host only
+"DOMAIN-SUFFIX,tradingview-widget.com",https://www.tradingview.com/widget-docs/widgets/symbol-details/technical-analysis/,Official widget script domain,Also affects non-crypto charts
+"DOMAIN-SUFFIX,ledger.com",https://shop.ledger.com/pages/ledger-wallet,Official wallet product site,Does not establish all app dependencies
+"DOMAIN-SUFFIX,upbit.com",https://global-docs.upbit.com/reference/rest-api-guide,Official regional API hosts under this domain,Does not establish all app dependencies
+"DOMAIN-SUFFIX,rabby.io",https://rabby.io/,Official wallet site,Does not establish all app dependencies
+"DOMAIN-SUFFIX,exodus.com",https://www.exodus.com/,Official wallet site,Does not establish all app dependencies
+"DOMAIN-SUFFIX,solscan.io",https://solscan.io/,Official explorer and linked API domain,Does not establish all app dependencies
+"DOMAIN-SUFFIX,dune.com",https://dune.com/home,Official onchain analytics site,Does not establish all app dependencies
+"DOMAIN-SUFFIX,dexscreener.com",https://dexscreener.com/,Official analytics site and linked API domain,Does not establish all app dependencies
+"DOMAIN-SUFFIX,mempool.space",https://mempool.space/,Bitcoin explorer site,Does not establish all app dependencies
