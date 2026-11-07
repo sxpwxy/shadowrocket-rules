@@ -504,7 +504,7 @@
     "DOMAIN-SUFFIX,crunchbase.com",
     "DOMAIN-SUFFIX,ipfs.io"
   ],
-  "last_successful_fetch_utc": "2026-11-06T16:59:46.209032+00:00",
+  "last_successful_fetch_utc": "2026-11-07T01:58:53.558659+00:00",
   "offline_build": false,
   "rules": 402,
   "sources": [
