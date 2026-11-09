@@ -504,14 +504,14 @@
     "DOMAIN-SUFFIX,crunchbase.com",
     "DOMAIN-SUFFIX,ipfs.io"
   ],
-  "last_successful_fetch_utc": "2026-11-08T01:28:36.366385+00:00",
+  "last_successful_fetch_utc": "2026-11-09T01:45:31.919627+00:00",
   "offline_build": false,
   "rules": 402,
   "sources": [
     {
       "domain_rules": 240,
       "id": "metacubex-cryptocurrency",
-      "sha256": "5ab178fcfe44fc33e3339f993a9bb97974c97d579af2f5d16ef387dedcb9a981",
+      "sha256": "7af4b489dd36da6ca2bb0852c489bfe7813b0f48ba9169bf4f653d9793dd96d8",
       "skipped_rules": [],
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/category-cryptocurrency.yaml"
     },
