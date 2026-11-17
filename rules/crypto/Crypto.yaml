@@ -4,7 +4,7 @@
 # Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Crypto/Crypto.list
 # Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Binance/Binance.list
 # Source: custom/Crypto-extra.list
-# TOTAL: 402
+# TOTAL: 403
 payload:
   - DOMAIN,api-testnet.manepa.jp
   - DOMAIN,api-testnet.spark-fintech.com
@@ -180,6 +180,7 @@ payload:
   - DOMAIN-SUFFIX,dappradar.com
   - DOMAIN-SUFFIX,dcabtc.com
   - DOMAIN-SUFFIX,debank.com
+  - DOMAIN-SUFFIX,debot.ai
   - DOMAIN-SUFFIX,defieye.io
   - DOMAIN-SUFFIX,defillama.com
   - DOMAIN-SUFFIX,defipulse.com
