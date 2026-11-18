@@ -13,7 +13,7 @@
 # Source: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/anthropic
 # Source: custom/AI-extra.list
 # Source: custom/AI-Dependencies.list
-# TOTAL: 228
+# TOTAL: 229
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,geller-pa.googleapis.com
@@ -93,6 +93,7 @@ DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,cursorvm.com
 DOMAIN-SUFFIX,elevenlabs.com
 DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,elevenlabsusercontent.com
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN-SUFFIX,jetbrains.ai

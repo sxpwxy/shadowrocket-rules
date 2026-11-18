@@ -1,8 +1,8 @@
 {
-  "ai_domain_rules": 228,
+  "ai_domain_rules": 229,
   "blocked_broad_ai_rules": [],
   "branch": "main",
-  "last_successful_fetch_utc": "2026-11-17T04:33:53.926566+00:00",
+  "last_successful_fetch_utc": "2026-11-18T03:43:55.077168+00:00",
   "main_rules_per_config": 39,
   "offline_build": false,
   "repository": "sxpwxy/shadowrocket-rules",
@@ -216,8 +216,8 @@
       "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cursor"
     },
     "ai-elevenlabs": {
-      "rules": 2,
-      "sha256": "4c284a7e5947f4a40d40c9dc8fedf3e9e3091db0c7680b913b2b19db36ebd561",
+      "rules": 3,
+      "sha256": "88f3412837a17af32533013ab039b988a6c26a519d73846f728b84a19e26487f",
       "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/elevenlabs"
     },
     "ai-github-copilot": {
