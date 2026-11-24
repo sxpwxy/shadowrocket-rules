@@ -217,8 +217,8 @@
     "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/github-copilot"
   },
   "ai-google-deepmind": {
-    "rules": 49,
-    "sha256": "6f768291aa81a8d88fa48fc20613f55be646674cfa24a3b3c152a97e859c33a8",
+    "rules": 50,
+    "sha256": "fa60e3f80e1487e38c04c92973102ff481c961e620b9bb11fb8585451f5ff2db",
     "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind"
   },
   "ai-jetbrains-ai": {
