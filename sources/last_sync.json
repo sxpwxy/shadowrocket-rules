@@ -2,7 +2,7 @@
   "ai_domain_rules": 230,
   "blocked_broad_ai_rules": [],
   "branch": "main",
-  "last_successful_fetch_utc": "2026-11-24T06:07:33.323228+00:00",
+  "last_successful_fetch_utc": "2026-11-25T04:55:38.202351+00:00",
   "main_rules_per_config": 39,
   "offline_build": false,
   "repository": "sxpwxy/shadowrocket-rules",
@@ -261,12 +261,12 @@
       "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/xai"
     },
     "openai-voice": {
-      "official_creation_time": "2026-11-16T01:33:53.175979+00:00",
-      "rules": 411,
-      "sha256": "0852b8be430cb4ae4a68ff8c0169f05bcdc5ce2ab6649cb3fc02d057a50612e7",
+      "official_creation_time": "2026-11-24T19:31:46.967853+00:00",
+      "rules": 444,
+      "sha256": "b794a112a504d35587e671edfd6de3aae14e05f4f581c077cf1d33d3cf4fec91",
       "url": "https://openai.com/chatgpt-voice.json"
     }
   },
   "validation_scope": "Static format and references; no live Shadowrocket engine or user node test.",
-  "voice_ip_rules": 411
+  "voice_ip_rules": 444
 }
